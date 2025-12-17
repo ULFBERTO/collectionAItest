@@ -1,0 +1,32 @@
+# Modelos y checkpoints (archivos pesados)
+*.h5
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.data-00000-of-00001
+*.index
+*.pb
+training_checkpoints/
+**/checkpoint-*/
+gpt_don_quijote_saved_model/
+gpt2_quijote_model/
+gpt2_quijote_checkpoints/
+
+# Ejecutables y builds
+*.exe
+build/
+dist/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales
+*.tempstate*
+*.lock
+
+# Archivos de cache grandes
+cached_lm_*

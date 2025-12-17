@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Quijote GPT - Chat</title>
+    <meta name="description" content="Chatea con un modelo de IA entrenado con El Quijote de Cervantes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">📜</span>
+                    <div class="logo-text">
+                        <h1>Don Quijote GPT</h1>
+                        <span class="subtitle">Modelo NLP entrenado desde cero</span>
+                    </div>
+                </div>
+                
+                <!-- Device Toggle -->
+                <div class="device-control">
+                    <div class="device-info" id="deviceInfo">
+                        <span class="device-icon" id="deviceIcon">💻</span>
+                        <span class="device-name" id="deviceName">CPU</span>
+                    </div>
+                    <label class="toggle-switch" title="Cambiar entre CPU y GPU">
+                        <input type="checkbox" id="deviceToggle">
+                        <span class="toggle-slider">
+                            <span class="toggle-label-left">CPU</span>
+                            <span class="toggle-label-right">GPU</span>
+                        </span>
+                    </label>
+                    <div class="gpu-status" id="gpuStatus">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Detectando...</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Chat Container -->
+        <main class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Welcome Message -->
+                <div class="message system">
+                    <div class="message-content">
+                        <div class="message-avatar">🏰</div>
+                        <div class="message-bubble">
+                            <p class="message-text">
+                                ¡Bienvenido, noble viajero! Soy un modelo de inteligencia artificial 
+                                entrenado exclusivamente con el texto de <strong>El Ingenioso Hidalgo 
+                                Don Quijote de la Mancha</strong> de Miguel de Cervantes.
+                            </p>
+                            <p class="message-text">
+                                Escribe una frase y yo la continuaré al estilo del Quijote. 
+                                Por ejemplo: <em>"En un lugar de la Mancha"</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="typing-content">
+                    <span class="typing-avatar">🎭</span>
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="typing-text">Don Quijote está escribiendo...</span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Input Area -->
+        <footer class="input-area">
+            <form class="input-form" id="chatForm">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="Escribe una frase para que Don Quijote la continúe..."
+                        rows="1"
+                        maxlength="500"
+                    ></textarea>
+                    <div class="input-controls">
+                        <div class="char-count">
+                            <span id="charCount">0</span>/500
+                        </div>
+                        <div class="generation-settings">
+                            <label class="setting" title="Cantidad de caracteres a generar">
+                                <span>📝</span>
+                                <input type="number" id="numGenerate" value="300" min="50" max="1000" step="50">
+                            </label>
+                            <label class="setting" title="Temperatura (creatividad)">
+                                <span>🌡️</span>
+                                <input type="range" id="temperature" value="0.8" min="0.1" max="2" step="0.1">
+                                <span class="temp-value" id="tempValue">0.8</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="send-button" id="sendButton">
+                    <span class="send-icon">➤</span>
+                    <span class="send-text">Enviar</span>
+                </button>
+            </form>
+        </footer>
+    </div>
+
+    <!-- Error Toast -->
+    <div class="toast" id="errorToast">
+        <span class="toast-icon">⚠️</span>
+        <span class="toast-message" id="toastMessage">Error</span>
+        <button class="toast-close" onclick="hideToast()">✕</button>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>

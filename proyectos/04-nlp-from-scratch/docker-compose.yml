@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # Servicio para CPU
+  nlp-chat-cpu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: don-quijote-gpt-cpu
+    ports:
+      - "8000:8000"
+    environment:
+      - TF_CPP_MIN_LOG_LEVEL=2
+      - CUDA_VISIBLE_DEVICES=-1
+    volumes:
+      - ./static:/app/static:ro  # Hot reload de frontend
+    profiles:
+      - cpu
+
+  # Servicio para GPU (NVIDIA)
+  nlp-chat-gpu:
+    build:
+      context: .
+      dockerfile: Dockerfile.gpu
+    container_name: don-quijote-gpt-gpu
+    ports:
+      - "8000:8000"
+    environment:
+      - TF_CPP_MIN_LOG_LEVEL=2
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - ./static:/app/static:ro  # Hot reload de frontend
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    profiles:
+      - gpu
+
+# Instrucciones de uso:
+# 
+# CPU:
+#   docker-compose --profile cpu build
+#   docker-compose --profile cpu up
+#
+# GPU (requiere nvidia-docker):
+#   docker-compose --profile gpu build
+#   docker-compose --profile gpu up
+#
+# Acceder: http://localhost:8000

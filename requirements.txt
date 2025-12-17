@@ -1,0 +1,37 @@
+# Dependencias para el Curso de IA desde Cero
+# ============================================
+
+# Fundamentos científicos
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Deep Learning
+tensorflow>=2.13.0
+tensorflow-hub>=0.14.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# NLP y Transformers
+transformers>=4.30.0
+datasets>=2.14.0
+tokenizers>=0.13.0
+
+# Utilidades
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+tqdm>=4.65.0
+
+# Visualización avanzada
+plotly>=5.14.0
+pillow>=10.0.0
+
+# Opcional: para trabajar con datos grandes
+# dask>=2023.5.0
+# pyarrow>=12.0.0
