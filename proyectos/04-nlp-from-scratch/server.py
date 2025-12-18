@@ -1,5 +1,5 @@
 """
-FastAPI Server para Don Quijote GPT
+FastAPI Server para OxideLLM_5M GPT
 Expone el modelo NLP entrenado como API REST con soporte CPU/GPU
 """
 
@@ -180,7 +180,7 @@ def generate_text(model, start_string: str, char2idx: dict, idx2char: dict,
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Lifecycle: carga el modelo al iniciar"""
-    print("🚀 Iniciando servidor Don Quijote GPT...")
+    print("🚀 Iniciando servidor OxideLLM_5M GPT...")
     
     # Detectar GPU
     detect_gpu()
@@ -202,7 +202,7 @@ async def lifespan(app: FastAPI):
     print("👋 Cerrando servidor...")
 
 app = FastAPI(
-    title="Don Quijote GPT API",
+    title="OxideLLM_5M GPT API",
     description="API para generar texto al estilo de El Quijote usando un modelo GPT entrenado desde cero",
     version="1.0.0",
     lifespan=lifespan
@@ -290,7 +290,7 @@ async def root():
     index_path = static_dir / "index.html"
     if index_path.exists():
         return FileResponse(str(index_path))
-    return {"message": "Don Quijote GPT API - Visita /docs para la documentación"}
+    return {"message": "OxideLLM_5M GPT API - Visita /docs para la documentación"}
 
 # ============== Main ==============
 

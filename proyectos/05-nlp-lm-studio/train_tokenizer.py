@@ -5,7 +5,7 @@ import requests
 def download_data(path='don_quijote.txt'):
     if not os.path.exists(path):
         url = "https://www.gutenberg.org/cache/epub/2000/pg2000.txt"
-        print(f"Descargando Don Quijote de {url}...")
+        print(f"Descargando OxideLLM_5M de {url}...")
         response = requests.get(url)
         with open(path, 'w', encoding='utf-8') as f:
             f.write(response.text)

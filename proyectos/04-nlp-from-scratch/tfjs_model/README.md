@@ -1,6 +1,6 @@
-# GPT Don Quijote - TensorFlow.js
+# GPT OxideLLM_5M - TensorFlow.js
 
-Modelo GPT entrenado con el texto de Don Quijote de la Mancha.
+Modelo GPT entrenado con el texto de OxideLLM_5M de la Mancha.
 Exportado para usar en navegador con TensorFlow.js.
 
 ## Archivos

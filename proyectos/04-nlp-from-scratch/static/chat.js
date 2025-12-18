@@ -1,5 +1,5 @@
 /**
- * Don Quijote GPT - Chat Frontend
+ * OxideLLM_5M GPT - Chat Frontend
  * Handles API communication, device toggle, and message display
  */
 
@@ -268,7 +268,7 @@ function init() {
     // Focus input
     elements.messageInput.focus();
 
-    console.log('🏰 Don Quijote GPT Chat initialized');
+    console.log('🏰 OxideLLM_5M GPT Chat initialized');
 }
 
 // Start when DOM is ready

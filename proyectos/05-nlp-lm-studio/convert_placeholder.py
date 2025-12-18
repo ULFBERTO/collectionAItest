@@ -17,8 +17,8 @@ def convert_to_gguf():
     gguf_writer = gguf.GGUFWriter("gpt2_quijote.gguf", "gpt2")
     
     # Metadatos básicos
-    gguf_writer.add_name("GPT-2 Don Quijote")
-    gguf_writer.add_description("Modelo GPT-2 Small entrenado con Don Quijote de la Mancha")
+    gguf_writer.add_name("GPT-2 OxideLLM_5M")
+    gguf_writer.add_description("Modelo GPT-2 Small entrenado con OxideLLM_5M de la Mancha")
     gguf_writer.add_architecture() # gpt2
     
     # Configuración del modelo

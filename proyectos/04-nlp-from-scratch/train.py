@@ -4,28 +4,36 @@ import json
 from data_loader import download_data, create_vocabulary, text_to_int, create_dataset
 from model import GPTModel
 
-# Configuración
-BATCH_SIZE = 64
-BUFFER_SIZE = 10000
-SEQ_LENGTH = 100
+# Configuración - Ajustada para corpus grande (~13M caracteres)
+BATCH_SIZE = 128  # Aumentado para corpus grande
+BUFFER_SIZE = 50000  # Aumentado para mejor shuffle
+SEQ_LENGTH = 128  # Secuencias más largas para mejor contexto
 D_MODEL = 256
 NUM_HEADS = 4
 DFF = 512
 NUM_LAYERS = 4
 DROPOUT = 0.1
-EPOCHS = 10  # Ajustar según tiempo disponible
+EPOCHS = 3  # 3-5 épocas recomendado para evitar overfitting
 CHECKPOINT_DIR = './training_checkpoints'
-MODEL_SAVE_DIR = './gpt_don_quijote_saved_model'
+MODEL_SAVE_DIR = './OxideLLM_5M_saved_model'
 
 # Configuración Hugging Face
-HF_REPO_ID = "ULFBERTO/gpt-don-quijote"
+HF_REPO_ID = "ULFBERTO/OxideLLM_5M"
 UPLOAD_TO_HF = True  # Cambiar a False si no quieres subir automáticamente
+
+# Usar corpus completo o solo OxideLLM_5M
+USE_FULL_CORPUS = True
 
 def train():
     # 1. Preparar datos
-    text = download_data()
+    text = download_data(use_full_corpus=USE_FULL_CORPUS)
     vocab, char2idx, idx2char = create_vocabulary(text)
     vocab_size = len(vocab)
+    
+    print(f"\n📊 Estadísticas del corpus:")
+    print(f"   Caracteres totales: {len(text):,}")
+    print(f"   Vocabulario: {vocab_size} caracteres únicos")
+    print(f"   Secuencias estimadas: {len(text) // SEQ_LENGTH:,}")
     
     text_as_int = text_to_int(text, char2idx)
     dataset = create_dataset(text_as_int, seq_length=SEQ_LENGTH, batch_size=BATCH_SIZE, buffer_size=BUFFER_SIZE)

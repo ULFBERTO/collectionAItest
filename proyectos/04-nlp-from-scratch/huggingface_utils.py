@@ -49,9 +49,9 @@ tags:
 license: mit
 ---
 
-# GPT Don Quijote
+# GPT OxideLLM_5M
 
-Modelo de lenguaje tipo GPT entrenado desde cero con el texto de Don Quijote de la Mancha.
+Modelo de lenguaje tipo GPT entrenado desde cero con el texto de OxideLLM_5M de la Mancha.
 
 ## Configuración del modelo
 

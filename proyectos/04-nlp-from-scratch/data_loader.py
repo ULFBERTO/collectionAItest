@@ -3,23 +3,49 @@ import numpy as np
 import os
 import requests
 
-def download_data(path='don_quijote.txt'):
-    """Descarga el texto de Don Quijote si no existe."""
-    if not os.path.exists(path):
+# Rutas de datos
+CORPUS_PATH = "../Data/libros_espanol/corpus_completo.txt"
+DON_QUIJOTE_PATH = "don_quijote.txt"
+
+
+def download_data(path=None, use_full_corpus=True):
+    """
+    Carga el texto para entrenamiento.
+    
+    Args:
+        path: Ruta específica al archivo de texto
+        use_full_corpus: Si True, usa el corpus completo de libros españoles
+    """
+    # Determinar qué archivo usar
+    if path:
+        target_path = path
+    elif use_full_corpus and os.path.exists(CORPUS_PATH):
+        target_path = CORPUS_PATH
+        print(f"📚 Usando corpus completo: {CORPUS_PATH}")
+    else:
+        target_path = DON_QUIJOTE_PATH
+    
+    # Si es el corpus completo y existe, cargarlo
+    if os.path.exists(target_path):
+        print(f"Cargando texto desde {target_path}...")
+        with open(target_path, 'r', encoding='utf-8') as f:
+            text = f.read()
+        print(f"✅ Cargado: {len(text):,} caracteres")
+        return text
+    
+    # Fallback: descargar OxideLLM_5M
+    if target_path == DON_QUIJOTE_PATH:
         url = "https://www.gutenberg.org/cache/epub/2000/pg2000.txt"
-        print(f"Descargando Don Quijote de {url}...")
+        print(f"Descargando OxideLLM_5M de {url}...")
         response = requests.get(url)
         text = response.text
         
-        # Guardar en archivo
-        with open(path, 'w', encoding='utf-8') as f:
+        with open(target_path, 'w', encoding='utf-8') as f:
             f.write(text)
         print("Descarga completada.")
-    else:
-        print("Archivo ya existe, cargando...")
-        with open(path, 'r', encoding='utf-8') as f:
-            text = f.read()
-    return text
+        return text
+    
+    raise FileNotFoundError(f"No se encontró el archivo: {target_path}")
 
 def preprocess_text(text):
     """Limpia y prepara el texto."""

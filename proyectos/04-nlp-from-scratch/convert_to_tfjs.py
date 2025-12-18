@@ -16,7 +16,7 @@ import numpy as np
 from model import GPTModel, PositionalEmbedding, CausalSelfAttention, FeedForward, TransformerBlock
 
 # Rutas
-MODEL_DIR = "./gpt_don_quijote_saved_model"
+MODEL_DIR = "./OxideLLM_5M_saved_model"
 TFJS_OUTPUT_DIR = "./tfjs_model"
 KERAS_MODEL_PATH = os.path.join(MODEL_DIR, "model.keras")
 
@@ -136,7 +136,7 @@ def upload_to_hf():
         print("❌ huggingface_hub no instalado")
         return
     
-    REPO_ID = "ULFBERTO/gpt-don-quijote-tfjs"
+    REPO_ID = "ULFBERTO/OxideLLM_5M-tfjs"
     
     print(f"📦 Creando repositorio {REPO_ID}...")
     try:
@@ -145,9 +145,9 @@ def upload_to_hf():
         print(f"Nota: {e}")
     
     # Crear README
-    readme = """# GPT Don Quijote - TensorFlow.js
+    readme = """# GPT OxideLLM_5M - TensorFlow.js
 
-Modelo GPT entrenado con el texto de Don Quijote de la Mancha.
+Modelo GPT entrenado con el texto de OxideLLM_5M de la Mancha.
 Exportado para usar en navegador con TensorFlow.js.
 
 ## Archivos

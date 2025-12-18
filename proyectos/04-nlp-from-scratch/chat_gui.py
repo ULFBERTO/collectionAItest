@@ -6,7 +6,7 @@ from generate import load_model, generate_text
 class ChatApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Don Quijote GPT")
+        self.root.title("OxideLLM_5M GPT")
         self.root.geometry("600x700")
         
         # Cargar modelo en segundo plano
@@ -41,7 +41,7 @@ class ChatApp:
     def on_model_loaded(self):
         self.loading_label.destroy()
         if self.model:
-            self.append_message("Sistema", "Modelo cargado correctamente. Escribe una frase para que Don Quijote la continúe.")
+            self.append_message("Sistema", "Modelo cargado correctamente. Escribe una frase para que OxideLLM_5M la continúe.")
         else:
             self.append_message("Error", "No se pudo cargar el modelo. Asegúrate de haber entrenado primero.")
 
@@ -62,7 +62,7 @@ class ChatApp:
             generated = generate_text(self.model, prompt, self.char2idx, self.idx2char, num_generate=300)
             # Solo mostrar la parte nueva (opcional, aquí mostramos todo)
             response = generated
-            self.root.after(0, lambda: self.append_message("Don Quijote", response))
+            self.root.after(0, lambda: self.append_message("OxideLLM_5M", response))
         except Exception as e:
             self.root.after(0, lambda: self.append_message("Error", str(e)))
 
