@@ -1,0 +1,688 @@
+{
+  "format": "weights_only",
+  "modelConfig": {
+    "vocab_size": 110,
+    "d_model": 256,
+    "num_heads": 4,
+    "dff": 512,
+    "num_layers": 4,
+    "max_len": 100,
+    "dropout": 0.1
+  },
+  "weightsManifest": [
+    {
+      "paths": [
+        "weights.bin"
+      ],
+      "weights": [
+        {
+          "name": "embeddings",
+          "shape": [
+            110,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 0,
+          "size": 112640
+        },
+        {
+          "name": "embeddings",
+          "shape": [
+            100,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 112640,
+          "size": 102400
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 215040,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 1263616,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 1267712,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 2316288,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 2320384,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 3368960,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            4,
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 3373056,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 4421632,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            512
+          ],
+          "dtype": "float32",
+          "offset": 4422656,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            512
+          ],
+          "dtype": "float32",
+          "offset": 4946944,
+          "size": 2048
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            512,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 4948992,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 5473280,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 5474304,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 5475328,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 5476352,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 5477376,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 5478400,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 6526976,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 6531072,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 7579648,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 7583744,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 8632320,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            4,
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 8636416,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 9684992,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            512
+          ],
+          "dtype": "float32",
+          "offset": 9686016,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            512
+          ],
+          "dtype": "float32",
+          "offset": 10210304,
+          "size": 2048
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            512,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10212352,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10736640,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10737664,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10738688,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10739712,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10740736,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 10741760,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 11790336,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 11794432,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 12843008,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 12847104,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 13895680,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            4,
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 13899776,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 14948352,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            512
+          ],
+          "dtype": "float32",
+          "offset": 14949376,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            512
+          ],
+          "dtype": "float32",
+          "offset": 15473664,
+          "size": 2048
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            512,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 15475712,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 16000000,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 16001024,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 16002048,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 16003072,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 16004096,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 16005120,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 17053696,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 17057792,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 18106368,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 18110464,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            4,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 19159040,
+          "size": 4096
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            4,
+            256,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 19163136,
+          "size": 1048576
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 20211712,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            512
+          ],
+          "dtype": "float32",
+          "offset": 20212736,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            512
+          ],
+          "dtype": "float32",
+          "offset": 20737024,
+          "size": 2048
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            512,
+            256
+          ],
+          "dtype": "float32",
+          "offset": 20739072,
+          "size": 524288
+        },
+        {
+          "name": "bias",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 21263360,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 21264384,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 21265408,
+          "size": 1024
+        },
+        {
+          "name": "gamma",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 21266432,
+          "size": 1024
+        },
+        {
+          "name": "beta",
+          "shape": [
+            256
+          ],
+          "dtype": "float32",
+          "offset": 21267456,
+          "size": 1024
+        },
+        {
+          "name": "kernel",
+          "shape": [
+            256,
+            110
+          ],
+          "dtype": "float32",
+          "offset": 21268480,
+          "size": 112640
+        },
+        {
+          "name": "bias",
+          "shape": [
+            110
+          ],
+          "dtype": "float32",
+          "offset": 21381120,
+          "size": 440
+        }
+      ]
+    }
+  ]
+}
