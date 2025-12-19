@@ -21,6 +21,8 @@ torchvision>=0.15.0
 transformers>=4.30.0
 datasets>=2.14.0
 tokenizers>=0.13.0
+sentencepiece>=0.1.99
+huggingface_hub>=0.16.0
 
 # Utilidades
 jupyter>=1.0.0
