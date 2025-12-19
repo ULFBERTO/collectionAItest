@@ -1,0 +1,31 @@
+{
+  "topics_learned": [
+    "Ecuaciones diferenciales lineales",
+    "guerra fría",
+    "edad media",
+    "fotosíntesis",
+    "diagramas de Venn",
+    "climas del mundo",
+    "funciones",
+    "multiplicación",
+    "Análisis de Sentido Común en Lógica",
+    "Tipos de fractales en geometría.",
+    "Tipos de suelos en la agricultura",
+    "silogismos",
+    "verbos regulares",
+    "Introducción a los algoritmos de ordenamiento",
+    "operadores lógicos"
+  ],
+  "total_examples": 75,
+  "total_loss_sum": 112.47778158187865,
+  "last_save": "2025-12-19T15:41:30.782591",
+  "model_config": {
+    "vocab_size": 16000,
+    "d_model": 768,
+    "num_heads": 12,
+    "num_layers": 12,
+    "dff": 3072,
+    "max_seq_len": 512,
+    "dropout": 0.1
+  }
+}

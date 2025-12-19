@@ -1,0 +1,180 @@
+
+============================================================
+[2025-12-19T11:55:23.991076] Geometría de polígonos regulares
+Loss: 9.4806
+  P: ¿Cuántos ángulos interiores tiene un hexágono regular?
+  R: 6
+  P: ¿Cómo se calcula la medida de cada ángulo interior en un polígono regular de n lados?
+  R: La medida de cada ángulo interior es (n-2)*180/n
+  P: ¿Cuántos lados tiene un octágono?
+  R: 8
+
+============================================================
+[2025-12-19T11:57:09.330567] falacias lógicas
+Loss: 9.3649
+  P: ¿Cuál es la falacia lógica en el argumento: 'La mayoría de las personas que comen pescado son sanas,
+  R: La falacia lógica es la generalización exagerada. Esto sucede cuando se infiere una conclusión unive
+  P: ¿Cuál es el error en el argumento: 'Aunque 90% de las personas que compraron la camiseta se sienten 
+  R: La falacia lógica es el falsa disyunción. Esto consiste en aceptar una afirmación como verdadera sol
+  P: ¿Cuál es la falla en el argumento: 'Todo lo que sea bueno debe ser religioso, pero este cine no tien
+  R: La falacia lógica es la falsa disyunción. Esta se caracteriza por aceptar una afirmación como verdad
+
+============================================================
+[2025-12-19T12:14:28.882269] Ecuaciones diferenciales lineales
+Loss: 9.6067
+  P: Resuelve la ecuación diferencial lineal: dy/dx + 2y = 3e^x
+  R: La solución a esta ecuación es y(x) = e^(-2x) (C1 + ∫3e^(x+2x) dx).
+  P: ¿Qué tipo de problema se resuelve con la método de separación de variables?
+  R: Este método se usa para resolver ecuaciones diferenciales lineales homogéneas de primer orden (y' + 
+  P: ¿Cómo encontrar la solución general de una ecuación diferencial lineal a partir de su solución parti
+  R: La solución general es la suma de una solución particular y el conjunto general de soluciones más ge
+
+============================================================
+[2025-12-19T12:21:06.623341] guerra fría
+Loss: 9.3387
+  P: ¿Cuál fue el principal objetivo de la Unión Soviética durante la Guerra Fría?
+  R: El principal objetivo de la Unión Soviética durante la Guerra Fría fue expandir su influencia global
+  P: ¿Cuál fue el conflicto más importante de la Guerra Fría?
+  R: El conflicto más importante de la Guerra Fría fue la Guerra de Corea (1950-1953) y la Guerra de Viet
+  P: ¿Qué fue el Muro de Berlín?
+  R: El Muro de Berlín fue una barrera física construida para separar Alemania Oriental (comunista) y Ale
+
+============================================================
+[2025-12-19T12:26:29.825795] edad media
+Loss: 8.9498
+  P: ¿Cuál es la edad media de una persona en la época medieval?
+  R: La edad media en la Edad Media fue alrededor de 35-40 años. Esto se debió a que la mortalidad infant
+  P: ¿Qué factores contribuyeron a una vida más larga en la Edad Media?
+  R: Entre los factores que contribuyeron a una vida más larga en la Edad Media se encuentran mejores con
+  P: ¿Cómo se calcula la edad media en una población?
+  R: La edad media se calcula sumando todas las edades de una población y dividiendo por el número total 
+
+============================================================
+[2025-12-19T12:31:15.367514] fotosíntesis
+Loss: 8.5273
+  P: ¿Qué es la fotosíntesis?
+  R: La fotosíntesis es el proceso por el cual las plantas, algas y algunas bacterias convierten la energ
+  P: ¿Qué se requiere para que ocurra la fotosíntesis?
+  R: Se necesitan la luz solar, agua (H2O), dióxido de carbono (CO2) y clorofila para que ocurra la fotos
+  P: ¿Cuál es el producto principal de la fotosíntesis?
+  R: El producto principal de la fotosíntesis son los glucidos, como el azúcar, que se utilizan como fuen
+
+============================================================
+[2025-12-19T12:36:37.944710] diagramas de Venn
+Loss: 8.1081
+  P: ¿Qué es un diagrama de Venn?
+  R: Un diagrama de Venn es una herramienta visual utilizada para representar la relación entre conjuntos
+  P: ¿Cómo se representa un conjunto en un diagrama de Venn?
+  R: Un conjunto se representa como un círculo en el diagrama, y la intersección entre dos o más conjunto
+  P: ¿Puedo utilizar un solo círculo para representar tres o más conjuntos?
+  R: No, generalmente se utilizan dos o más círculos no intersectantes para representar cada conjunto en 
+
+============================================================
+[2025-12-19T12:42:26.711905] climas del mundo
+Loss: 8.1260
+  P: ¿Cuál es el clima más cálido del mundo?
+  R: El clima más cálido del mundo se encuentra en la región de la sabana tropical, especialmente en país
+  P: ¿Cómo se clasifican los climas según la temperatura?
+  R: Los climas se clasifican según la temperatura en: climas cálidos (tropicales y subtropicales), clima
+  P: ¿Qué es un clima continental?
+  R: Un clima continental es uno que se caracteriza por grandes diferencias entre las temperaturas estiva
+
+============================================================
+[2025-12-19T12:46:51.353963] porcentajes
+Loss: 7.3049
+  P: ¿Qué porcentaje es el 20% de 120?
+  R: El 24, Si calculamos paso a paso: (2/10) * 120 = 24.
+  P: ¿Cuánto representa el 15% del 420?
+  R: El 63. La fórmula para calcular es: (15/100) * 420 = 63.
+  P: ¿Qué porcentaje es el número 18 en una escala de 1 a 50?
+  R: El 36, El cálculo se hace con la fórmula: ((18 / 50) * 100 = 36).
+
+============================================================
+[2025-12-19T13:02:19.901645] funciones
+Loss: 7.6130
+  P: ¿Qué es una función?
+  R: Una función es un conjunto de instrucciones que se pueden utilizar repetidamente en diferentes parte
+  P: ¿Cómo se define una función con parámetros?
+  R: Una función se define con parámetros utilizando el símbolo de función y restando a los parámetros, p
+  P: ¿Qué es la llamada a una función?
+  R: La llamada a una función es el proceso de ejecutar la función y pasarle los parámetros necesarios. P
+
+============================================================
+[2025-12-19T13:15:40.771055] multiplicación
+Loss: 7.1226
+  P: ¿Qué es 2 x 3?
+  R: El resultado de la multiplicación entre 2 y 3 es 6.
+  P: ¿Cuánto vale 5 x 4?
+  R: Para encontrar el resultado, podemos utilizar el algoritmo de multiplicación: Primero multiplicamos 
+  P: ¿Qué es 3 x 9?
+  R: Para resolver esto, podemos utilizar el algoritmo de multiplicación: Primero multiplicamos los númer
+
+============================================================
+[2025-12-19T13:38:54.635217] Análisis de Sentido Común en Lógica
+Loss: 7.0473
+  P: ¿Cuál es el tipo de conocimiento que implica la capacidad de evaluar la coherencia y la sensatez de 
+  R: La regla del sentido común.
+  P: Un hombre compra un billete de avión para un destino lejano. Luego, descubre que viaja el día incorr
+  R: Ha cometido un error en su planificación. Esta es una aplicación de la regla del sentido común.
+  P: ¿De qué manera se puede determinar si una inferencia lógica tiene sentido?
+  R: Al evaluar que los antecedentes sean verdaderos y que el consecuente sea lógico, aplicando la regla 
+
+============================================================
+[2025-12-19T13:54:33.616670] Tipos de fractales en geometría.
+Loss: 6.9042
+  P: ¿Qué es un fractal?
+  R: Un fractal es una forma geométrica que se repite en diferentes escalas y tiene propiedades de simetr
+  P: ¿Cómo se define el fractal de Sierpinski?
+  R: El fractal de Sierpinski es un polígono que se forma eliminando iterativamente triángulos equilátero
+  P: ¿Qué es el fractal de Mandelbrot?
+  R: El fractal de Mandelbrot es una región en el plano complejo que tiene propiedades de auto-similarida
+
+============================================================
+[2025-12-19T14:15:03.503705] Tipos de suelos en la agricultura
+Loss: 6.1600
+  P: ¿Qué tipo de suelo es el más fértil?
+  R: El suelo aluvial.
+  P: ¿Cómo se define un suelo arcilloso?
+  R: Se define como un suelo con alta proporción de arcilla y baja permeabilidad, lo que dificulta el dre
+  P: ¿Qué es una tierra negra?
+  R: La tierra negra es un tipo de suelo rico en materia orgánica y carbonatos de calcio. Es muy fértil, 
+
+============================================================
+[2025-12-19T14:32:59.201966] silogismos
+Loss: 6.4410
+  P: ¿Cuál es el silogismo de la lógica clásica: Todos los animales tienen cuatro patas? / Juan es un ani
+  R: Los animales tienen cuatro patas. (Algoritmo: 1) Identificar la premisa mayor, 2) Identificar la pre
+  P: ¿Cuál es el silogismo de la lógica clásica: Todos los números son iguales. / El 5 no es igual al 3.
+  R: No hay una relación entre las dos premisas, por lo que no se puede sacar ninguna conclusión válida s
+  P: ¿Cuál es el silogismo de la lógica clásica: Todos los seres humanos tienen una alma. / Juan es un se
+  R: Juan tiene una alma (Razonamiento: Analizar las premisas para identificar la relación entre ser huma
+
+============================================================
+[2025-12-19T14:55:25.821242] verbos regulares
+Loss: 6.4661
+  P: ¿Cómo se forma la raíz del verbo 'fregar'?
+  R: La raíz es 'frag-' y se obtiene quitando el sufijo '-ger'.
+  P: ¿Qué significa agrega '-ar', '-er', '-ir' a un radical para formar verbos regulares?
+  R: Estos son los sufijos que se agregan al radical (la raíz) de los verbos regulares. Por ejemplo: 'fre
+  P: ¿Cómo se forma la conjugación regular del verbo 'vivir' en el presente?
+  R: La conjugación regular en el presente es: yo vivo, tú vives, él/ella/usted vive, nosotros/as vivimos
+
+============================================================
+[2025-12-19T15:22:41.304103] Introducción a los algoritmos de ordenamiento
+Loss: 5.8934
+  P: ¿Cuál es el algoritmo de ordenamiento más sencillo?
+  R: Burbuja. El algoritmo de Burbuja compara cada par de elementos en la lista y los intercambia si está
+  P: ¿Cómo funciona el algoritmo de Selección?
+  R: El algoritmo de Selección encuentra el elemento más pequeño en la lista y lo coloca en la primera po
+  P: ¿Cuál es el tiempo de complejidad del algoritmo de Inserción?
+  R: El tiempo de complejidad del algoritmo de Inserción es O(n^2), ya que para cada elemento en la lista
+
+============================================================
+[2025-12-19T15:41:29.926657] operadores lógicos
+Loss: 6.1736
+  P: ¿Cuál es el operador lógico que devuelve true si al menos una de las condiciones es verdadera?
+  R: Operador OR (o)
+  P: Una persona tiene 18 años y otra tiene 25. ¿Qué resultado obtendríamos si se utiliza el operador AND
+  R: True, porque ambas condiciones son verdaderas.
+  P: ¿Qué valor obtendríamos si aplicáramos un operador lógico a dos condiciones falsas?
+  R: Falso
