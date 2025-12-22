@@ -178,3 +178,2503 @@ Loss: 6.1736
   R: True, porque ambas condiciones son verdaderas.
   P: ¿Qué valor obtendríamos si aplicáramos un operador lógico a dos condiciones falsas?
   R: Falso
+
+============================================================
+[2025-12-19T15:57:14.132664] raíces cuadradas
+Loss: 5.2708
+  P: ¿Cuál es la raíz cuadrada de 25?
+  R: La raíz cuadrada de 25 es 5.
+  P: ¿Cómo se encuentra la raíz cuadrada de un número?
+  R: Para encontrar la raíz cuadrada de un número, podemos usar el algoritmo de raíz cuadrada, que implic
+  P: ¿Cuál es la raíz cuadrada de -16?
+  R: La raíz cuadrada de un número negativo no existe en el conjunto de números reales, ya que por defini
+
+============================================================
+[2025-12-19T16:09:25.743995] ecuaciones cuadráticas
+Loss: 6.0365
+  P: ¿Qué es una ecuación cuadrática?
+  R: Una ecuación cuadrática es una ecuación polinómica de grado 2, que generalmente se escribe en la for
+  P: ¿Cómo resolver una ecuación cuadrática?
+  R: Paso 1: Identifica los coeficientes a, b y c en la ecuación. Paso 2: Aplica la fórmula de raíces com
+  P: ¿Cuál es el tipo de conocimiento que representa la fórmula de raíces completas?
+  R: La fórmula de raíces completas es un algoritmo para resolver ecuaciones cuadráticas.
+
+============================================================
+[2025-12-19T16:23:32.166006] Cálculo de probabilidades
+Loss: 4.6880
+  P: ¿Cuál es la probabilidad de sacar un número par en una tirada de un dado?
+  R: 1/2
+  P: Un evento tiene una probabilidad de 3/5 de ocurrir. ¿Qué probabilidad tiene el evento contrario de n
+  R: 
+  P: Tres amigos juegan a un juego y cada uno tiene la misma probabilidad de ganar. ¡Cual es la probabili
+  R: 
+
+============================================================
+[2025-12-19T16:40:18.842511] bucles for y while
+Loss: 6.2074
+  P: ¿Qué es un bucle for?
+  R: Un bucle for es una estructura de control de flujo que permite iterar sobre un conjunto de elementos
+  P: ¿Dónde se utiliza más comúnmente un bucle for?
+  R: Un bucle for se utiliza en situaciones donde se necesita recorrer un conjunto de elementos que tiene
+  P: ¿Qué es un bucle while?
+  R: Un bucle while es una estructura de control de flujo que permite ejecutar una acción mientras se cum
+
+============================================================
+[2025-12-19T16:58:49.942777] Estructura de un ensayo académico
+Loss: 6.1258
+  P: ¿Qué es el título de un ensayo académico?
+  R: El título es la primera línea que se lee en un ensayo y debe ser claro y conciso para reflejar el te
+  P: ¿Qué función tiene la introducción en un ensayo académico?
+  R: La introducción presenta el tema, proporciona contexto y establece el propósito del ensayo. Generalm
+  P: ¿Qué es la estructura secuencial en un ensayo académico?
+  R: La estructura secuencial se refiere a presentar las ideas o argumentos en orden jerárquico, con el m
+
+============================================================
+[2025-12-19T17:15:20.689796] revolución industrial
+Loss: 6.6504
+  P: ¿Cuándo comenzó la Revolución Industrial?
+  R: La Revolución Industrial se inició en el siglo XVIII, aproximadamente entre 1760 y 1840.
+  P: ¿Qué papel jugó el vapor en la Revolución Industrial?
+  R: El vapor, gracias a la invención de James Watt, permitió que las máquinas funcionaran con mayor efic
+  P: ¿Cuáles fueron los principales países involucrados en la Revolución Industrial?
+  R: Los principales países involucrados en la Revolución Industrial fueron Gran Bretaña, Francia y Bélgi
+
+============================================================
+[2025-12-19T17:29:00.861982] pronombres
+Loss: 6.0103
+  P: ¿Cuál es el pronombre personal en singular de la primera persona?
+  R: Yo
+  P: Explica el razonamiento para identificar los pronombres personales en una oración.
+  R: 1. Identifica las personas mencionadas en la oración. 
+2. Asigna un pronombre personal a cada person
+  P: ¿Cuál es el objetivo principal del uso de los pronombres en la oración?
+  R: Evitar repetición y hacer referencia a personas o cosas de manera clara y concisa.
+
+============================================================
+[2025-12-19T17:46:42.195437] Sistemas de numeración en diferentes culturas
+Loss: 6.3758
+  P: ¿Cuál es el sistema de numeración más antiguo conocido?
+  R: El sistema de numeración más antiguo conocido es el sistema sexagesimal (base 60), que se utilizó en
+  P: ¿Cómo funciona el sistema de numeración vigesimal (base 20) que se utilizó en la civilización maya?
+  R: El sistema de numeración vigesimal utiliza una base de 20, lo que significa que los números se repre
+  P: ¿Cuál es el sistema de numeración más utilizado en la actualidad?
+  R: El sistema de numeración decimal (base 10) es el más utilizado en la actualidad, ya que se basa en l
+
+============================================================
+[2025-12-19T18:02:09.197473] países por continente
+Loss: 6.4587
+  P: ¿Cuáles son los países del continente de Asia?
+  R: Algunos países del continente de Asia son Japón, China, India, Corea del Sur y Tailandia.
+  P: ¿Cuál es el continente donde se encuentra Argentina?
+  R: El continente donde se encuentra Argentina es América del Sur. Otros países en este continente inclu
+  P: ¿Cuáles son los países de África?
+  R: Los países africanos incluyen Sudáfrica, Egipto, Nigeria y Marruecos. Otros destacados son Argelia y
+
+============================================================
+[2025-12-19T18:17:34.673921] montañas y cordilleras
+Loss: 6.5429
+  P: ¿Cuál es la montaña más alta del mundo?
+  R: La montaña más alta del mundo es el Monte Everest, con una altitud de 8.848 metros sobre el nivel de
+  P: ¿Qué es una cordillera?
+  R: Una cordillera es una cadena de montañas relacionadas entre sí y que se extienden en un área geográf
+  P: ¿Cuáles son las principales características de la Cordillera de los Andes?
+  R: La Cordillera de los Andes se caracteriza por ser una de las cadenas montañosas más largas y altas d
+
+============================================================
+[2025-12-19T18:30:56.296975] reacciones químicas
+Loss: 6.4154
+  P: ¿Qué es una reacción química?
+  R: Una reacción química es un proceso en el que uno o más compuestos cambian a otros compuestos, genera
+  P: ¿Cuáles son los pasos para escribir una ecuación química?
+  R: 1. Identifica la reacción química: Determine el tipo de reacción (síntesis, descomposición, combinac
+  P: ¿Qué es un catalizador?
+  R: Un catalizador es una sustancia que acelera la velocidad de una reacción química sin ser consumida e
+
+============================================================
+[2025-12-19T18:47:49.438933] porcentajes
+Loss: 5.6164
+  P: ¿Qué significa un porcentaje de 25%?
+  R: Un porcentaje de 25% es la fracción de un todo que representa una cuarta parte del mismo (1/4).
+  P: ¿Cómo se calcula el 15% de un número?
+  R: Para calcular el 15% de un número, debemos multiplicarlo por (15 / 100) o 0,15. Por ejemplo: Si tene
+  P: ¿Cuál es la diferencia entre un porcentaje y una fracción?
+  R: Un porcentaje se refiere a una fracción del todo en forma de decimales (entre 0 y 1), mientras que l
+
+============================================================
+[2025-12-19T19:03:32.521081] El cálculo de probabilidades en estadística
+Loss: 5.2608
+  P: ¿Cuál es la definición de probabilidad?
+  R: La probabilidad es un número entre 0 y 1 que indica la frecuencia relativa de que ocurra un evento.
+  P: ¿Cómo se calcula la probabilidad de un evento?,
+  R: Se calcula como el número de resultados favorables dividido por el total de resultados posibles.
+  P: Un dado tiene 6 caras con números del 1 al 6, ¿cuál es la probabilidad de sacar un 4?
+  R: La probabilidad de sacar un 4 es 1/6.
+
+============================================================
+[2025-12-19T19:20:15.281420] guerras mundiales
+Loss: 7.0214
+  P: ¿Cuál fue la causa principal de la Primera Guerra Mundial?
+  R: La causa principal fue el asesinato del archiduque Francisco Fernando de Austria en 1914, lo que pro
+  P: ¿Quién fue el líder del bando aliado durante la Primera Guerra Mundial?
+  R: El líder del bando aliado fue Georges Clemenceau, Primer Ministro de Francia, pero también otros líd
+  P: ¿Cuál fue el evento que marcó el inicio de la Segunda Guerra Mundial?
+  R: El evento que marcó el inicio de la Segunda Guerra Mundial fue la invasión alemana a Polonia en sept
+
+============================================================
+[2025-12-19T19:34:38.508964] civilizaciones antiguas
+Loss: 6.7913
+  P: ¿En qué año se fundó la antigua ciudad de Ur?
+  R: La ciudad de Ur se fundó en el 2100 a.C. y fue una importante ciudad sumeria en Mesopotamia.
+  P: ¿Cuál era el papel del faraón en la sociedad egipcia?
+  R: El faraón era tanto el gobernante como un dios viviente en la sociedad egipcia. Era considerado hijo
+  P: ¿Qué era el oráculo de Delfos en la antigua Grecia?
+  R: El oráculo de Delfos era un lugar donde se consultaba a Apolo para obtener consejos y predicciones. 
+
+============================================================
+[2025-12-19T19:53:23.896897] Lógica matemática: Teoremas de incompletitud de Gödel
+Loss: 6.4199
+  P: ¿Qué teorema de Gödel establece que cualquier sistema formal fuerte es incompleto?
+  R: Teorema de la incompletitud. El Teorema de Gödel establece que en cualquier lógica formal consistent
+  P: ¿Qué es el Teorema Completo?
+  R: No existe. Gödel estableció la incompletitud, por lo que no puede existir un teorema completo. El si
+  P: ¿Qué es la Paradoja de la Bicicleta?
+  R: La paradoja se refiere a un libro sobre la paradoja, pero Gödel usó una variante para demostrar que 
+
+============================================================
+[2025-12-19T20:04:12.241559] manejo de strings
+Loss: 5.7594
+  P: ¿Cómo obtener el carácter en una posición específica dentro de una cadena?
+  R: Utiliza la función `charAt()` en Java o `string[index]` en otros lenguajes.
+  P: ¿Cómo concatenar dos cadenas para formar otra nueva?
+  R: Puedes utilizar el operador `+` o las funciones `concat()` dependiendo del lenguaje de programación 
+  P: ¿Cómo determinar si una cadena es vacía?
+  R: Puedes utilizar la función `isEmpty()` en Java o comprobar la longitud de la cadena para ver si es i
+
+============================================================
+[2025-12-19T20:23:13.754837] Análisis de redes neuronales
+Loss: 5.8571
+  P: ¿Qué es una red neuronal?
+  R: Una red neuronal es un modelo de aprendizaje automático inspirado en la estructura y función del cer
+  P: ¿Qué es el entrenamiento de una red neuronal?
+  R: El entrenamiento implica ajustar los parámetros de la red para minimizar la diferencia entre su pred
+  P: ¿Qué es una función de activación en una red neuronal?
+  R: Las funciones de activación determinan el comportamiento de las neuronas al procesar información, co
+
+============================================================
+[2025-12-19T20:33:09.875404] estadística básica
+Loss: 5.5919
+  P: ¿Cuál es el promedio de una serie de números?
+  R: El promedio se calcula sumando todos los números y dividiéndolos por la cantidad de números. Por eje
+  P: ¿Cuál es la desviación estándar?
+  R: La desviación estándar se calcula encontrando el promedio de los cuadrados de las diferencias entre 
+  P: ¿Cuál es la diferencia entre media y mediana?
+  R: La media se calcula sumando todos los números y dividiéndolos por la cantidad de números, mientras q
+
+============================================================
+[2025-12-19T20:49:26.770634] Lógica proporcional
+Loss: 5.1659
+  P: Si A implica B, ¿qué se puede concluir sobre la relación entre A y C si se sabe que A implica C?
+  R: A implica C
+  P: ¿Qué es una premisa en un razonamiento lógico proporcional?
+  R: Una afirmación o suposición considerada verdadera para llegar a una conclusión.
+  P: Si A no implica B y B no implica C, ¿qué se puede concluir sobre la relación entre A y C?
+  R: No se puede concluir que A implique C.
+
+============================================================
+[2025-12-19T21:01:18.097166] ríos principales
+Loss: 5.8214
+  P: ¿Cuál es el río más largo del mundo?
+  R: El Amazonas tiene una longitud de aproximadamente 6.800 km.
+  P: ¿Cuáles son los ríos principales que fluyen a través de China?
+  R: Los ríos Yangtsé, Amarillo y Mekong son importantes en la región.
+  P: ¿Qué es el río Nilo y qué países atraviesa?
+  R: El Nilo es uno de los ríos más largos del mundo que fluye a través de Uganda, Sudán del Sur, Sudán, 
+
+============================================================
+[2025-12-19T21:17:24.946457] sinónimos y antónimos
+Loss: 5.2273
+  P: ¿Qué significa 'felicidad' en un contexto emocional?
+  R: La felicidad es un estado emocional positivo y agradable.
+  P: ¿Qué son los sinónimos?
+  R: Los sinónimos son palabras o expresiones que tienen el mismo significado o equivalencia semántica.
+  P: ¿Cuál es la palabra antónima de 'grande'?
+  R: Pequeño.
+
+============================================================
+[2025-12-19T21:29:54.793687] figuras literarias
+Loss: 5.5508
+  P: ¿Cuál es la figura literaria que se refiere a la repetición de palabras o grupos de palabras al prin
+  R: Refrán
+  P: ¿Cuál es el nombre de la figura literaria en la que un personaje que habla no corresponde con su ver
+  R: Ironía
+  P: ¿Qué se denomina a un estilo de poesía muy antiguo donde se cantaba o declamaba una historia en vers
+  R: Épica
+
+============================================================
+[2025-12-19T21:46:10.443778] diccionarios
+Loss: 5.8561
+  P: ¿Qué es un diccionario?
+  R: Un diccionario es una colección de palabras ordenadas alfabéticamente junto con su definición y otro
+  P: ¿Cómo se organiza un diccionario?
+  R: Se organiza por orden alfabético, lo que significa que las palabras se presentan en una secuencia ló
+  P: ¿Qué tipo de información contiene un diccionario?
+  R: Un diccionario puede contener definiciones, sinónimos, antónimos, origen etimológico y ejemplos de u
+
+============================================================
+[2025-12-19T22:02:04.058430] operadores
+Loss: 4.0900
+  P: ¿Cuál es el resultado de la expresión 5 + 3?
+  R: El resultado de la expresión 5 + 3 es 8.
+  P: ¿Cómo se evalúa la expresión A * B?
+  R: Se multiplica los valores de las variables o constantes A y B.
+  P: ¿Cuál es el resultado de la expresión 10 - 2?
+  R: El resultado de la expresión 10 - 2 es 8.
+
+============================================================
+[2025-12-19T22:20:27.857822] razonamiento inductivo
+Loss: 5.5958
+  P: ¿Qué es el razonamiento inductivo?
+  R: El razonamiento inductivo es un tipo de razonamiento que se basa en generalizaciones y patrones obse
+  P: ¿Cómo funciona el razonamiento inductivo?
+  R: Paso 1: Se observan casos específicos y se identifican patrones o características comunes. Paso 2: A
+  P: ¿Cuál es el objetivo principal del razonamiento inductivo?
+  R: El objetivo principal del razonamiento inductivo es identificar patrones y relaciones entre variable
+
+============================================================
+[2025-12-19T22:32:32.299889] probabilidad
+Loss: 4.6790
+  P: ¿Cuál es la probabilidad de sacar un número par en una ruleta que tiene los números del 1 al 36?
+  R: La respuesta directa: 18/36 o 1/2.
+  P: ¿Cuál es la probabilidad de que salga el sol mañana?
+  R: La respuesta directa: 1 (es seguro).
+  P: ¿Cuál es la probabilidad de que dos monedas lanzadas caigan cara y cruz al mismo tiempo?
+  R: La respuesta directa: 1/4.
+
+============================================================
+[2025-12-19T22:47:28.973956] capitales del mundo
+Loss: 5.8104
+  P: ¿Cuál es la capital de China?
+  R: La capital de China es Pekín (Beijing).
+  P: ¿Dónde está ubicada la capital de Brasil?
+  R: La capital de Brasil se encuentra en Brasilia, situada al centro del país.
+  P: ¿Cuál es la capital de Australia?
+  R: La capital de Australia es Canberra. Es una ciudad planificada y elegida debido a su ubicación geogr
+
+============================================================
+[2025-12-19T23:08:18.270777] continentes y océanos
+Loss: 5.9208
+  P: ¿Cuántos continentes existen en la Tierra?
+  R: La respuesta directa es 7. El razonamiento o algoritmo paso a paso para determinar esto se basa en l
+  P: ¿Cuál es el mayor de los océanos del mundo?
+  R: La respuesta directa es Pacífico. El razonamiento o algoritmo paso a paso para determinar esto se ba
+  P: ¿Cuál es el continente más poblado?
+  R: La respuesta directa es Asia. El razonamiento o algoritmo paso a paso para determinar esto se basa e
+
+============================================================
+[2025-12-19T23:22:24.440139] Algoritmo de ordenamiento por selección
+Loss: 5.1663
+  P: ¿Cuál es el algoritmo de ordenamiento por selección?
+  R: El algoritmo de ordenamiento por selección es un método que encuentra el elemento mínimo o máximo en
+  P: ¿Cómo funciona la primera iteración del algoritmo de selección?
+  R: En la primera iteración, el algoritmo compara cada elemento en la lista con los elementos restantes 
+  P: ¿Cuál es el tiempo de complejidad promedio del algoritmo de selección?
+  R: El algoritmo de selección tiene una complejidad temporal O(n^2), donde n es la longitud del array. E
+
+============================================================
+[2025-12-19T23:36:42.179193] Sistemas de ecuaciones lineales
+Loss: 5.0841
+  P: ¿Cuál es la solución a la ecuación lineal 2x + 3y = 5?
+  R: La solución es x = -15/4 cuando y = 19/4.
+  P: ¿Cómo se resuelve el sistema de ecuaciones lineales x + y = 2 y x - y = 1?
+  R: Primero, sumamos las dos ecuaciones para obtener 2x = 3. Luego, dividimos por 2 para encontrar x = 3
+  P: ¿Cuál es el tipo de conocimiento sobre sistemas de ecuaciones lineales?
+  R: El tipo de conocimiento es un algoritmo.
+
+============================================================
+[2025-12-19T23:57:17.594941] "Geometría analítica 2D"
+Loss: 6.0195
+  P: ¿Qué es el plano cartesiano?
+  R: El plano cartesiano es un sistema de coordenadas bidimensional que se utiliza para representar punto
+  P: ¿Cómo se calcula la distancia entre dos puntos?
+  R: Se utiliza la fórmula: d = √((x2 - x1)^2 + (y2 - y1)^2), donde (x1, y1) y (x2, y2) son las coordenad
+  P: ¿Qué es un vector?
+  R: Un vector es una cantidad geométrica con magnitud (longitud) y dirección. Puede representarse gráfic
+
+============================================================
+[2025-12-20T00:09:41.879406] verbos irregulares
+Loss: 5.9971
+  P: ¿Cuál es el verbo irregular 'go' en su forma base?
+  R: La forma base del verbo irregular 'go' es 'go'.
+  P: ¿Cómo se forma la conjugación de 'ir' en subjuntivo presente?
+  R: Para formar la conjugación de 'ir' en subjuntivo presente, debemos agregar -ra a las formas del pres
+  P: ¿Cuál es el verbo irregular 'take' en su forma base?
+  R: La forma base del verbo irregular 'take' es 'take'. Sin embargo, su forma base irregular de conjugac
+
+============================================================
+[2025-12-20T00:21:57.754697] Cálculo diferencial
+Loss: 4.6155
+  P: ¿Cuál es la derivada de f(x) = 3x^2?
+  R: La respuesta directa es f'(x) = 6x.
+  P: ¿Cómo encontrar la derivada de f(x) = x^2 + 2x - 3?
+  R: La respuesta directa es f'(x) = 2x + 2.
+  P: ¿Cuál es la regla para encontrar la derivada de una función exponencial?
+  R: La respuesta directa es si f(x) = ax^b, entonces f'(x) = abx^(b-1).
+
+============================================================
+[2025-12-20T00:36:34.660436] tiempos verbales
+Loss: 5.9063
+  P: ¿Cuál es el tiempo verbal correcto para la oración 'Hablaré con él mañana'?.
+  R: El tiempo verbal correcto es el futuro simple (hablaré).
+  P: Explica por qué en la oración 'Mañana hablaré con él' se usa el futuro simple.
+  R: Se utiliza el futuro simple porque indica una acción que ocurrirá en un momento específico del futur
+  P: ¿Cuál es el tiempo verbal correcto para la oración 'Había estudiado todo el día'?
+  R: El tiempo verbal correcto es el pasado perfecto (había estudiado).
+
+============================================================
+[2025-12-20T00:51:02.439040] electricidad básica
+Loss: 5.9948
+  P: ¿Qué es la corriente eléctrica?
+  R: La corriente eléctrica (I) es el flujo de cargas eléctricas a través de un circuito. Se mide en ampe
+  P: ¿Cómo se calcula la resistencia en un circuito?
+  R: La resistencia (R) se calcula según Ohm's ley: R = V/I, donde V es la tensión y I es la corriente.
+  P: ¿Qué diferencia hay entre una bombilla incandescente y LED?
+  R: Una bombilla incandescente convierte toda la energía en calor, mientras que una luz LED convierte la
+
+============================================================
+[2025-12-20T01:02:16.593534] método científico
+Loss: 5.4522
+  P: ¿Cuál es el primer paso del método científico?
+  R: El primer paso es formular un problema o pregunta y definir los objetivos de investigación.
+  P: ¿Cómo se denomina al paso en el que se investigan y recopilan datos para responder a la pregunta for
+  R: Se llama recolección de datos.
+  P: ¿Qué significa analizar los resultados en el método científico?
+  R: Analizar los resultados implica examinar y interpretar los datos recopilados para identificar patron
+
+============================================================
+[2025-12-20T01:19:16.537350] Ecuaciones diofánticas
+Loss: 5.5042
+  P: ¿Cuál es la fórmula para encontrar la solución de una ecuación diofántica lineal?
+  R: La fórmula para encontrar la solución de una ecuación diofántica lineal x + y = k es: (x, y) = (-y1,
+  P: ¿Cómo se resuelve una ecuación diofántica cuadrática?
+  R: Una ecuación diofántica cuadrática tiene la forma ax^2 + bxy + cy^2 = d.
+El algoritmo para resolverl
+  P: ¿Qué es el teorema de la factorización en la teoría de ecuaciones diofánticas?
+  R: El teorema de la factorización establece que si una ecuación diofántica cuadrática tiene un número p
+
+============================================================
+[2025-12-20T01:35:40.738789] decimales
+Loss: 5.1378
+  P: ¿Cuántos decimales tiene el número 12,5?
+  R: El número 12,5 tiene un dígito decimal.
+  P: ¿Qué es un número con dos decimales? ¿Cómo se representa?
+  R: Un número con dos decimales es un número que tiene dos dígitos después del punto decimal. Se represe
+  P: ¿Cuántas casillas de decimales hay en una fracción de la forma a/b?
+  R: El número de casillas de decimales en una fracción de la forma a/b es igual al número máximo de fact
+
+============================================================
+[2025-12-20T01:53:25.679996] logaritmos
+Loss: 5.4879
+  P: ¿Cuál es la propiedad fundamental de los logaritmos?
+  R: El logaritmo de un número es el exponente al que se debe elevar a una base determinada para obtener 
+  P: ¿Cómo se calcula el logaritmo de 1000 en base 10?
+  R: Se puede calcular como la potencia a la que se debe elevar 10 (la base) para obtener 1000. En este c
+  P: ¿Cuál es el logaritmo de una fractal?
+  R: No existe un único valor para el logaritmo de una fractal ya que son conceptos geométricos y no núme
+
+============================================================
+[2025-12-20T02:07:12.195928] resta
+Loss: 4.8672
+  P: ¿Qué es la resta?
+  R: La resta es una operación matemática que consiste en encontrar la diferencia entre dos números.
+  P: ¿Cómo se resta un número entero de otro?
+  R: Para restar un número entero de otro, simplemente súbelo negativo.
+  P: ¿Cuál es la resta de 10 y -3?
+  R: La resta de 10 y -3 es igual a 13.
+
+============================================================
+[2025-12-20T02:26:22.455914] Sistemas de ecuaciones lineales.
+Loss: 4.9711
+  P: Resolver la ecuación 2x + 3y = 7
+  R: Para resolver esta ecuación, podemos usar el método de sustitución o eliminación. Primero, intentare
+  P: ¿Cuál es el tipo de ecuación lineal?
+  R: La ecuación lineal es una ecuación que se puede escribir en forma de f(x) = mx + b, donde m y b son 
+  P: Resolver la ecuación x + y = 4, 2x - y = 1
+  R: Usaremos el método de sustitución. Resolviendo la primera ecuación por y obtenemos y = 4 - x. Ahora,
+
+============================================================
+[2025-12-20T02:44:50.808231] razonamiento deductivo
+Loss: 5.3772
+  P: ¿Cuál es el tipo de conocimiento que se utiliza en las conclusiones del razonamiento deductivo?
+  R: La respuesta directa es un ALGORITMO. En el razonamiento deductivo, se aplica un algoritmo lógico pa
+  P: ¿En qué consiste el razonamiento deductivo?
+  R: El razonamiento deductivo es un tipo de razonamiento en el que se deduce una conclusión a partir de 
+  P: ¿Cuál es la relación entre las premisas y la conclusión en el razonamiento deductivo?
+  R: La respuesta directa es UNA RELACIÓN DE CONSECUENCIA. Las premisas siempre implican la consecuencia.
+
+============================================================
+[2025-12-20T03:00:07.227533] Sistema de numeración en base 2
+Loss: 5.7096
+  P: ¿Qué significa el sistema de numeración en base 2?
+  R: El sistema de numeración en base 2 es un sistema numérico que utiliza solo dos dígitos: 0 y 1. Utili
+  P: ¿Cómo funciona la conversión de números decimales a binarios?
+  R: La conversión de números decimales a binarios se logra dividiendo el número por 2 en cada paso. Si e
+  P: ¿Qué son los bits?
+  R: Los bits (del inglés binary digit) son las unidades de información en una computadora, equivalente a
+
+============================================================
+[2025-12-20T03:11:23.278818] condicionales if-else
+Loss: 6.4016
+  P: ¿Qué es un condicional if-else?
+  R: Un condicional if-else es una estructura de control que evalúa una condición y ejecuta un bloque de 
+  P: Cómo se estructura un condicional if-else?
+  R: Un condicional if-else generalmente sigue este formato: `if (condición) { código a ejecutar si la co
+  P: ¿Cómo se pueden utilizar los condicionales if-else en una función?
+  R: Los condicionales if-else pueden ser utilizados dentro de funciones para tomar decisiones basadas en
+
+============================================================
+[2025-12-20T03:25:27.547598] célula y sus partes
+Loss: 6.2562
+  P: ¿Qué es una célula?
+  R: Una célula es la unidad básica de la vida y componente fundamental de todos los seres vivos.
+  P: ¿Cuáles son las partes principales de una célula eucariota?
+  R: Las partes principales de una célula eucariota son: citoplasma, núcleo, mitocondrias, ribosomas, ret
+  P: ¿Qué es el citoplasma?
+  R: El citoplasma es la región acuosa que rodea al núcleo de una célula eucariota. Alberga los orgánulos
+
+============================================================
+[2025-12-20T03:38:15.011560] Ecuaciones diferenciales no lineales
+Loss: 5.7497
+  P: ¿Qué es una ecuación diferencial no lineal?
+  R: Una ecuación diferencial no lineal es una ecuación que involucra derivadas de funciones desconocidas
+  P: ¿Cómo se distingue una ecuación diferencial no lineal de una lineal?
+  R: Una ecuación diferencial no lineal tiene términos que involucran la función desconocida y sus deriva
+  P: ¿Cómo se abordan las ecuaciones diferenciales no lineales?
+  R: Estas pueden ser resueltas utilizando métodos numéricos o aproximativos como la simulación, el métod
+
+============================================================
+[2025-12-20T03:57:27.378227] Algoritmo de ordenamiento por inserción
+Loss: 5.1468
+  P: ¿Qué es el algoritmo de ordenamiento por inserción?
+  R: El algoritmo de ordenamiento por inserción es un método para ordenar una lista de elementos en orden
+  P: ¿Cómo funciona el algoritmo de ordenamiento por inserción paso a paso?
+  R: Primero, se analiza cada elemento de la lista. Luego, se compara con los elementos que le preceden y
+  P: Dado el siguiente conjunto de números: {5, 2, 8, 3}, ¿cómo se aplicaría el algoritmo de ordenamiento
+  R: Primero se compara el 5 con los anteriores (no hay), luego el 2 con los anteriores y lo coloca antes
+
+============================================================
+[2025-12-20T04:12:47.387806] Algoritmo de ordenamiento Burbuja
+Loss: 3.5293
+  P: ¿Cuál es el algoritmo de ordenamiento Burbuja?
+  R: El algoritmo de ordenamiento Burbuja es un tipo de algoritmo que utiliza la comparación repetida par
+  P: ¿Cómo funciona el algoritmo de orderamiento Burbuja?
+  R: El algoritmo funciona de la siguiente manera:
+1. Compara cada par de elemntos consecutivos.
+2. Si lo
+  P: ¿Cuál es el tipo de conocimiento para el algoritmo de ordenamiento Burbuja?
+  R: El algoritmo de ordenamiento Burbuja es un tipo de algoritmo de ordenamiento, específicamente un alg
+
+============================================================
+[2025-12-20T04:31:04.721535] acentuación
+Loss: 6.0273
+  P: ¿Qué es la acentuación en español?
+  R: La acentuación es el proceso de indicar el tono o el énfasis en una palabra o frase para darle signi
+  P: ¿Cómo se acentúa la sílaba tónica?
+  R: La sílaba tónica es la que lleva el acento en una palabra. Si la última sílaba no es tónica, se acen
+  P: ¿Qué pasa con las vocales que cambian de pronunciación en palabras diferentes?
+  R: En español, algunas vocales pueden cambiar de pronunciación según el contexto. Por ejemplo, la e en 
+
+============================================================
+[2025-12-20T04:45:50.809307] suma
+Loss: 4.1781
+  P: ¿Cuál es el resultado de sumar 3 + 5?
+  R: 8.
+  P: ¿Cómo se calcula la suma de 12 + 7?
+  R: El razonamiento o algoritmo paso a paso es: 1) Escribir los números uno debajo del otro. 2) Sumar la
+  P: ¿Cuál es el resultado de sumar 5 + 2?
+  R: 7.
+
+============================================================
+[2025-12-20T04:59:16.493211] Análisis de costos y beneficios
+Loss: 5.8972
+  P: ¿Cuál es el objetivo principal del análisis de costos y beneficios?
+  R: El objetivo principal del análisis de costos y beneficios es evaluar si una decisión o proyecto es v
+  P: ¿Cómo se componen las partes de un análisis de costos y beneficios?
+  R: Un análisis de costos y beneficios consta de la identificación de los costos, la estimación de la pr
+  P: ¿Qué es un costo indirecto?
+  R: Un costo indirecto es aquello que contribuye a una actividad pero no lo consume directamente. Por ej
+
+============================================================
+[2025-12-20T05:12:15.976067] Estructura de datos en Python
+Loss: 5.4851
+  P: ¿Cuál es la estructura de datos más básica en Python?
+  R: Lista (listas)
+  P: ¿Cual es la operación para agregar un elemento a un conjunto en Python?
+  R: El método add() o el operador aditivo (+) se utilizan, por ejemplo: mi_set.add(1)
+  P: ¿Qué estructura de datos en Python permite almacenaar clave-valor y acceder a los valores mediante l
+  R: Diccionario (dic)
+
+============================================================
+[2025-12-20T05:30:10.309823] Fórmula de la pendiente en función lineal
+Loss: 4.8036
+  P: ¿Cuál es la fórmula de la pendiente en una función lineal?
+  R: La fórmula de la pendiente es m = (y2 - y1) / (x2 - x1).
+  P: Cómo se calcula el valor de la pendiente usando dos puntos?
+  R: Se encuentra la diferencia entre las coordenadas y de los dos puntos, luego se divide por la diferen
+  P: ¿Es correcta la afirmación de que la fórmula de la pendiente siempre da un valor positivo?
+  R: No. La fórmula de la pendiente puede dar valores positivos o negativos dependiendo del orden en el q
+
+============================================================
+[2025-12-20T05:43:37.348684] estados de la materia
+Loss: 6.3499
+  P: ¿Cuáles son los cuatro estados de la materia?
+  R: Los cuatro estados de la materia son sólido, líquido, gaseoso y plasma.
+  P: ¿Cómo se caracteriza un gas en comparación con un líquido?
+  R: Un gas ocupa todo el volumen disponible, puede cambiar de forma al llenar cualquier recipiente que l
+  P: ¿Qué ocurre cuando se aumenta la temperatura de un sólido?
+  R: Cuando se aumenta la temperatura de un sólido, puede pasar a ser líquido. Esto sucede porque los áto
+
+============================================================
+[2025-12-20T05:57:20.299492] Aritmética y Geometría Progresiva en Series Finítimas
+Loss: 5.2952
+  P: ¿Cuál es la suma de los primeros tres términos de la serie aritmética 2 + 5 + 8 + ...?
+  R: La respuesta es 15. Paso a paso: identificamos que la razón común es 3 (el siguiente término se obti
+  P: ¿Cuál es el producto de los primeros dos términos de la serie geométrica 3 × 6 × 18 × ...?
+  R: La respuesta es 18. Paso a paso: identificamos que la razón común entre términos consecutivos es 2 (
+  P: ¿Cuál es la diferencia entre los últimos dos términos de la serie aritmética 1 + 4 + 7 + ...?
+  R: La respuesta es 3. Paso a paso: identificamos que la razón común es 3 (el siguiente término se obtie
+
+============================================================
+[2025-12-20T06:09:38.842454] Lenguaje de Programación Java
+Loss: 5.5502
+  P: ¿Cuál es el tipo de datos más común para almacenar números enteros en Java?
+  R: El tipo de dato int se utiliza para almacenar números enteros en Java.
+  P: ¿Cómo se define una clase en Java?
+  R: Una clase en Java se define utilizando la palabra clave 'public' o sin ella, seguida del nombre de l
+  P: ¿Qué es un método en Java?
+  R: Un método es una sección de código que realiza una acción específica y puede recibir parámetros. Se 
+
+============================================================
+[2025-12-20T06:23:42.294604] Ecuaciones Diferenciales Lineales
+Loss: 5.1754
+  P: Que es una ecuación diferencial lineal?
+  R: Una ecuación diferencial lineal es de la forma y' + p(x)y = q(x), donde p(x) y q(x) son funciones co
+  P: ¿Cómo se resuelve una ecuación diferencial lineal?
+  R: Se resuelve mediante la integración: 1. Integra ambos lados con respecto a x, manteniendo y' en el l
+  P: ¿Qué es una ecuación diferencial lineal homogénea?
+  R: Una ecuación diferencial lineal homogénea tiene la forma y' + p(x)y = 0. Se puede resolver utilizand
+
+============================================================
+[2025-12-20T06:34:14.845536] Algoritmo de búsqueda en grafos
+Loss: 5.5190
+  P: ¿Cuál es el algoritmo más común utilizado para encontrar un caminho entre dos nodos en un grafo?
+  R: El algoritmo más común utilizado para encontrar un caminho entre dos nodos en un grafo es Breadth-Fi
+  P: ¿Cuál es el paso a paso del algoritmo BFS?
+  R: El paso a paso del algoritmo BFS es:
+1. Coloca el nodo de inicio en una cola.
+2. Mientras la cola no
+  P: ¿Cuál es la diferencia entre BFS y Depth-First Search (DFS)?
+  R: La diferencia principal entre BFS y DFS es el orden en que se explora el grafo. En BFS, se explora p
+
+============================================================
+[2025-12-20T06:47:05.402277] preposiciones
+Loss: 4.7383
+  P: ¿Cuál preposición se utiliza para indicar la dirección?
+  R: La preposición 'a' se utiliza para indicar la dirección.
+  P: ¿Qué preposición se emplea para expresar el tiempo o la duración?
+  R: Se utilizan las preposiciones 'durante', 'en' y 'a'.
+  P: ¿Cuál es la función de la preposición 'de' en una oración?
+  R: La preposición 'de' se utiliza para indicar el origen o el punto de partida.
+
+============================================================
+[2025-12-20T07:02:35.361889] sistemas de ecuaciones
+Loss: 3.9944
+  P: ¿Cuál es la solución de la ecuación 2x + 3y = 7?
+  R: La respuesta directa no existe una única solución para esta ecuación lineal, ya que hay infinitas so
+  P: ¿Cuál es la solución para el sistema de ecuaciones x + y = 4, x - y = 2?
+  R: La respuesta directa es x=3, y=1.
+  P: ¿Cuál es el método para resolver un sistema de ecuaciones lineales?
+  R: El método directo es el algoritmo de sustitución o eliminación.
+
+============================================================
+[2025-12-20T07:20:06.952663] leyes de Newton
+Loss: 5.9045
+  P: ¿Cuál es la primera ley de Newton?
+  R: La primera ley de Newton establece que un objeto en reposo permanecerá en reposo y un objeto en movi
+  P: ¿Qué es la segunda ley de Newton?
+  R: La segunda ley de Newton establece que el efecto de una fuerza sobre un objeto es igual a su masa mu
+  P: ¿Cuál es la tercera ley de Newton?
+  R: La tercera ley de Newton establece que cada acción tiene una reacción igual y opuesta. Si un objeto 
+
+============================================================
+[2025-12-20T07:34:52.596640] energía y trabajo
+Loss: 5.1665
+  P: ¿Cuál es la definición de trabajo en física?
+  R: El trabajo (W) está dado por la fórmula W = F × d, donde F es la fuerza aplicada y d es la distancia
+  P: ¿Cuál es el tipo de conocimiento sobre energía y trabajo?
+  R: El trabajo está basado en un algoritmo, específicamente la fórmula W = F × d. Esto se utiliza para c
+  P: ¿Qué sucede cuando el trabajo es positivo?
+  R: Cuando el trabajo (W) es positivo, significa que la fuerza ha causado un movimiento en la dirección 
+
+============================================================
+[2025-12-20T07:50:02.552113] Álgebra lineal
+Loss: 5.7469
+  P: ¿Cuál es la matriz inversa de una matriz cuadrada A?
+  R: La matriz inversa de una matriz cuadrada A se denota como A^(-1) y se encuentra mediante el algoritm
+  P: ¿Cuál de las siguientes matrices no está invertible?
+  R: Una matriz no está invertible si su determinante es cero (det(A)=0). El razonamiento paso a paso imp
+  P: ¿Qué relación existe entre el rango de una función lineal y su dimensión?
+  R: El rango de una función lineal es igual a su dimensión. El razonamiento paso a paso implica: 1. Cons
+
+============================================================
+[2025-12-20T08:08:16.774074] Cálculo de probabilidades en estadística
+Loss: 5.2648
+  P: ¿Cuál es la probabilidad de sacar un 6 en una tirada de un dado?
+  R: 1/6
+  P: Si una persona tiene un 20% de probabilidad de contraer enfermedad A, ¿cuál es la probabilidad de no
+  R: 80%
+  P: ¿Cuál es la probabilidad de sacar al menos un 6 en tres tiradas consecutivas de un dado?
+  R: 19/64
+
+============================================================
+[2025-12-20T08:20:33.533664] sistema solar
+Loss: 6.4889
+  P: ¿Cuántos planetas tiene el sistema solar?
+  R: El sistema solar consta de 8 planetas: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Nep
+  P: ¿Qué es la órbita de un planeta?
+  R: La órbita de un planeta es el camino que sigue su movimiento alrededor del Sol. Es una trayectoria e
+  P: ¿Cuál es la diferencia entre un día y un año?
+  R: Un día es el tiempo que tarda la Tierra en completar una rotación sobre su eje (aproximadamente 24 h
+
+============================================================
+[2025-12-20T08:36:24.372355] división
+Loss: 4.9773
+  P: ¿Cuál es la respuesta a 15 ÷ 3?
+  R: La respuesta es 5.
+  P: Cómo se calcula la división de números grandes?
+  R: 1. Divide el dividendo por el divisor, y si hay resto, escribe el cociente con un signo negativo y e
+  P: ¿Qué sucede cuando el divisor es 0?
+  R: No se puede realizar la división porque division entre cero no tiene solución. (Hecho)
+
+============================================================
+[2025-12-20T08:55:20.419709] tablas de verdad
+Loss: 5.1545
+  P: ¿Qué es una tabla de verdad?
+  R: Una tabla de verdad es una herramienta lógica que muestra todas las posibles combinaciones de valore
+  P: ¿Cómo se construye una tabla de verdad?
+  R: Se construye determinando el número y las posibles combinaciones de valores verdadero o falso para c
+  P: ¿Qué tipo de conocimiento representa una tabla de verdad?
+  R: Algoritmo para evaluar la validez de un argumento o prueba.
+
+============================================================
+[2025-12-20T09:07:13.329190] Análisis de Sentimientos en Texto Natural
+Loss: 5.9552
+  P: ¿Qué es el Análisis de Sentimientos en Texto Natural?
+  R: El análisis de sentimientos en texto natural es un campo del procesamiento del lenguaje natural (NLP
+  P: ¿Qué tipo de conocimiento es la clasificación de un texto como positivo, negativo o neutro?
+  R: La clasificación de un texto como positivo, negativo o neutro se considera un algoritmo.
+  P: ¿Cómo se puede calcular la intensidad de una emoción en un texto?
+  R: Paso 1: Identificar los términos relacionados con emociones. Paso 2: Calcular la frecuencia y el con
+
+============================================================
+[2025-12-20T09:24:08.394563] renacimiento
+Loss: 6.1849
+  P: ¿Qué características definen al Renacimiento?
+  R: El Renacimiento se caracteriza por una renovación cultural y artística que se centró en la recuperac
+  P: ¿Cuál fue un objetivo clave del Renacimiento?
+  R: Un objetivo clave del Renacimiento fue la búsqueda de la perfección en las artes y las ciencias, lo 
+  P: ¿Cuál fue una característica principal del Renacimiento?
+  R: Una característica principal del Renacimiento fue el humanismo, que se centró en la importancia de l
+
+============================================================
+[2025-12-20T09:41:02.434954] potencias
+Loss: 4.8824
+  P: ¿Cuál es la potencia de 2 elevado a la potencia 3?
+  R: La respuesta es: 8 (2^3 = 2 × 2 × 2 = 8).
+  P: ¿Cómo se calcula la potencia de un número?
+  R: Se calcula multiplicando el número base por sí mismo tantas veces como indique la exponente. Por eje
+  P: ¿Qué significa 2 potencia 5?
+  R: Significa que 2 se eleva a la potencia de 5, es decir, 2 multiplicado por sí mismo 5 veces. (2^5 = 3
+
+============================================================
+[2025-12-20T09:56:39.868079] Tipos de números enteros en matemática
+Loss: 4.4009
+  P: ¿Qué son los números enteros?
+  R: Los números enteros son todos los números que no tienen fracciones y pueden ser positivos, negativos
+  P: Dime un ejemplo de un número entero.
+  R: El número 5 es un ejemplo de un número entero porque no tiene parte decimal. (Hecho)
+  P: ¿Qué son los números enteros positivos?
+  R: Los números enteros positivos son todos los números enteros que son mayores a cero, como 1, 2, 3, et
+
+============================================================
+[2025-12-20T10:10:41.963799] variables y tipos de datos
+Loss: 5.6882
+  P: ¿Qué es una variable en programación?
+  R: Una variable es un contenedor que almacena un valor de datos. Puedes pensar en ella como un cajón do
+  P: ¿Cuáles son los tipos de datos más comunes en programación?
+  R: Los tipos de datos más comunes son: números enteros (int), números reales (float o double), cadenas 
+  P: ¿Cómo se declara una variable en Java?
+  R: La sintaxis para declarar una variable es `tipoDeDato nombreDeVariable;` por ejemplo, `int x;`. Lueg
+
+============================================================
+[2025-12-20T10:28:22.712853] trigonometría básica
+Loss: 6.0267
+  P: ¿Cuál es el seno de un ángulo?
+  R: El seno de un ángulo es la relación entre la longitud del lado opuesto al ángulo y la longitud del h
+  P: ¿Cuál es el coseno de un ángulo?
+  R: El coseno de un ángulo es la relación entre la longitud del lado adyacente al ángulo y la longitud d
+  P: ¿Cuál es la razón trigonométrica tangente?
+  R: La razón trigonométrica tangente (tang) está dada por: sen(alpha)/cos(alpha) = sen(alpha) / √(1 - se
+
+============================================================
+[2025-12-20T10:47:42.432893] Algoritmo de Ordenamiento por Selección (Selection Sort)
+Loss: 5.5186
+  P: ¿Qué es el algoritmo de Ordenamiento por Selección?
+  R: El algoritmo de Ordenamiento por Selección (Selection Sort) es un método de ordenamiento de arrays q
+  P: ¿Cuál es la complejidad temporal promedio del algoritmo de Ordenamiento por Selección?
+  R: La complejidad temporal promedio del algoritmo de Ordenamiento por Selección es O(n^2). Esto signifi
+  P: ¿Cómo se implementa el algoritmo de Ordenamiento por Selección?
+  R: Para implementar el algoritmo de Ordenamiento por Selección, sigue estos pasos: 1. Inicia desde la p
+
+============================================================
+[2025-12-20T10:58:19.535045] Ecuaciones diferenciales ordinarias
+Loss: 5.1649
+  P: ¿Cuál es el tipo de ecuación que representa la variación de una cantidad con respecto al tiempo?
+  R: Ecuación diferencial ordinaria (EDO).
+  P: Un modelo físico describe la velocidad de un objeto en función del tiempo. ¿Cómo se puede representa
+  R: Una EDO de primera orden, como dv/dt + bv = 0, donde v es la velocidad y b una constante.
+  P: ¿Cuál es el nombre del teorema que establece que si una función y(x) y su derivada primera y'(x) son
+  R: Teorema de Límites.
+
+============================================================
+[2025-12-20T11:10:02.662748] listas y arrays
+Loss: 4.8314
+  P: ¿Qué son las listas en programación?
+  R: Las listas son estructuras de datos que permiten almacenar una colección ordenada y mutuable de elem
+  P: ¿Cuál es la diferencia entre una lista y un array?
+  R: En programación, una lista y un array son términos intercambiables. No hay una diferencia específica
+  P: ¿Cómo se accede a un elemento de una lista en Python?
+  R: Se utiliza el índice del elemento deseado, como en la expresión `mi_lista[n],` donde `n` es el índic
+
+============================================================
+[2025-12-20T11:21:39.064675] Análisis de datos con Python
+Loss: 5.4104
+  P: ¿Cómo se importa la biblioteca pandas en Python?
+  R: import pandas as pd
+  P: ¿Qué función utilizamos para crear un DataFrame a partir de una lista de listas en pandas?
+  R: pd.DataFrame()
+  P: ¿Cómo obtenemos el primer valor de un DataFrame en pandas?
+  R: df.iloc[0, 0]
+
+============================================================
+[2025-12-20T11:38:41.777579] Geometría descriptiva en 3D
+Loss: 5.2014
+  P: ¿Qué es una línea en el plano de proyección?
+  R: Una línea en el plano de proyección es la proyección de un semiplano del espacio tridimensional sobr
+  P: ¿Cómo se define una recta en el espacio 3D?
+  R: Se define como el conjunto de puntos que satisfacen las ecuaciones x = a, y = b y z = c.
+  P: ¿Qué es un plano en la geometría descriptiva?
+  R: Es el conjunto de todos los puntos del espacio tridimensional que se encuentran en una recta determi
+
+============================================================
+[2025-12-20T11:52:59.417407] Análisis de sentimientos en textos naturales
+Loss: 5.9428
+  P: ¿Qué es el análisis de sentimientos en textos naturales?
+  R: El análisis de sentimientos en textos naturales es un tipo de procesamiento de lenguaje natural (NLP
+  P: ¿Cómo funciona el análisis de sentimientos?
+  R: El análisis de sentimientos generalmente sigue estos pasos: 1) Preprocesamiento del texto (limpieza 
+  P: ¿Cuáles son los tipos de análisis de sentimientos?
+  R: Existen varios tipos de análisis de sentimientos, incluyendo: 1) Clasificación de sentimiento: clasi
+
+============================================================
+[2025-12-20T12:02:28.533880] fracciones
+Loss: 5.1066
+  P: ¿Qué es una fracción?
+  R: Una fracción es una forma de representar una parte o un pedazo de algo dividido en partes iguales.
+  P: ¿Cómo se puede escribir la fracción 1/2 como decimal?
+  R: La fracción 1/2 se puede escribir como número decimal dividiendo el numerador por el denominador: 1 
+  P: ¿Cuál es la regla para comparar dos fracciones?
+  R: Para comparar dos fracciones, se compara el numerador y después el denominador. Si el numerador de u
+
+============================================================
+[2025-12-20T12:14:24.573321] orden de operaciones
+Loss: 5.8454
+  P: ¿Cuál es la orden de operaciones para resolver una expresión matemática?
+  R: La orden de operaciones es PEMDAS: Parentheses, Exponents, Multiplication and Division (divisiones),
+  P: ¿Cómo se resuelve la expresión 2+3*4 utilizando el orden de operaciones?
+  R: Primero, se calcula la multiplicación: 3*4 = 12. Luego, se suma 2 a ese resultado: 2 + 12 = 14.
+  P: ¿Qué pasa si no se sigue el orden de operaciones en una expresión matemática?
+  R: Si no se sigue el orden de operaciones, la respuesta puede ser diferente de la correcta. Por ejemplo
+
+============================================================
+[2025-12-20T12:27:42.536555] Estructura de árboles binarios
+Loss: 5.2033
+  P: ¿Cuál es la definición de árbol binario?
+  R: Un árbol binario es un tipo de estructura de datos en la que cada nodo tiene como máximo dos hijos: 
+  P: ¿Qué son los nodos de un árbol binario?
+  R: Los nodos de un árbol binario son las instancias individuales que contienen valores o información, c
+  P: ¿Qué es el vértice del árbol binario?
+  R: El vértice (o raíz) de un árbol binario es el nodo que está en la parte superior, que no tiene padre
+
+============================================================
+[2025-12-20T12:47:07.019216] recursividad
+Loss: 4.9535
+  P: ¿Cuál es el principio básico de la recursividad?
+  R: La recursividad se basa en el principio de que un problema más grande se puede dividir en subproblem
+  P: ¿Cómo funciona la función factoriál con recursividad?
+  R: La función factoriál calcula el factorial de un número n usando recursividad: si n es 0 o 1, devuelv
+  P: ¿Cuál es el tipo de conocimiento que es la recursividad?
+  R: La recursividad es un algoritmo, ya que describe una secuencia de pasos para resolver un problema.
+
+============================================================
+[2025-12-20T13:03:11.820348] Tipos de números en matemática
+Loss: 3.8151
+  P: ¿Cuál es el nombre de los números que se pueden expresar como la suma de 1 o más números positivos?
+  R: Los números enteros positivos.
+  P: ¿Qué son los números racionales?
+  R: Son los números que se pueden expresar en forma fraccionaria, es decir, como el cociente de dos núme
+  P: ¿Cuál es el nombre del conjunto de todos los números reales?
+  R: El conjunto de números reales se conoce como ℝ.
+
+============================================================
+[2025-12-20T13:21:09.828984] ecuaciones lineales
+Loss: 4.5375
+  P: ¿Cuál es la fórmula para resolver una ecuación lineal?
+  R: La fórmula para resolver una ecuación lineal es: x = b/a. Este algoritmo consiste en aislar la varia
+  P: ¿Cómo se resuelve una ecuación lineal con términos en el lado derecho?
+  R: Para resolver una ecuación lineal con términos en el lado derecho, debemos aislar la variable x. Pri
+  P: ¿Cómo se resuelve una ecuación lineal con coeficientes diferentes a 1?
+  R: Para resolver una ecuación lineal con coeficientes diferentes a 1, debemos aislar la variable x. Pri
+
+============================================================
+[2025-12-20T13:37:44.227581] Ecuaciones diferenciales lineales
+Loss: 3.7833
+  P: ¿Qué es una ecuación diferencial lineal?
+  R: Una ecuación diferencial lineal es una ecuación que involucra una función desconocida y sus derivada
+  P: ¿Cómo se resuelve una ecuación diferencial lineal?
+  R: Se resuelve mediante la integración, pasando a las integrales por partes o usando métodos de integra
+  P: ¿Qué es un modelo lineal?
+  R: Un modelo lineal es una ecuación diferencial lineal en el que la función desconocida y sus derivadas
+
+============================================================
+[2025-12-20T13:51:09.056476] Cálculo de probabilidad
+Loss: 5.6343
+  P: ¿Cuál es la probabilidad de sacar un 6 al lanzar un dado?
+  R: La respuesta directa es: P(6) = rac{1}{6}. Este resultado se obtiene porque hay 6 resultados posibl
+  P: ¿Cuál es la probabilidad de sacar al menos un 5 en un lanzamiento de dos dados?
+  R: La respuesta directa es: P(al menos un 5) = 1 - P(ningún 5). Para calcular esto, necesitamos calcula
+  P: ¿Cuál es la probabilidad de que dos personas, Alex y Ben, tengan la misma fecha de nacimiento?
+  R: La respuesta directa es: P(idéntica fecha de nacimiento) = rac{1}{365}. Esto se debe a que hay 365 
+
+============================================================
+[2025-12-20T14:03:37.535163] tabla periódica
+Loss: 5.7663
+  P: Que es la tabla periódica?
+  R: Es una herramienta organizada que muestra los elementos químicos ordenados según su número atómico y
+  P: ¿Cómo se clasifican los elementos en la tabla periódica?
+  R: Los elementos se clasifican en grupos (columnas) y períodos (filas) según sus propiedades atómicas, 
+  P: ¿Qué es un grupo en la tabla periódica?
+  R: Un grupo es una columna vertical que contiene elementos con propiedades similares debido a tener el 
+
+============================================================
+[2025-12-20T14:24:34.984598] Ecuaciones lineales en dos variables
+Loss: 3.9940
+  P: Resuelve la ecuación x + 2y = 7
+  R: El primer paso es aislar una de las variables. Por ejemplo, podemos sumar -2 a ambos lados para obte
+  P: ¿Cuáles son las formas correctas para resolver una ecuación lineal en dos variables?
+  R: Las formas correctas para resolver una ecuación lineal en dos variables consisten en aislar una de l
+  P: ¿Cuál es el tipo de conocimiento representado por una ecuación lineal en dos variables?
+  R: La respuesta correcta es algoritmo. Un algoritmo es un conjunto de pasos que se siguen para resolver
+
+============================================================
+[2025-12-20T14:41:07.272295] Cálculo de probabilidades condicionales
+Loss: 6.1152
+  P: Si sabemos que el evento A ya ha ocurrido, ¿qué es la probabilidad de que también ocurra el evento B
+  R: La respuesta directa: La probabilidad condicional P(B|A) = P(A y B) / P(A)
+  P: Un estudio muestra que 80% de los estudiantes de una universidad toman un curso en línea. Si sabemos
+  R: El razonamiento: P(U|C) = P(C y U) / P(C). En este caso, P(U|C) = 1 porque sabemos que Juan toma un 
+  P: Si la probabilidad de que llueva mañana es del 60% y la probabilidad de que llueva si hace calor es 
+  R: El algoritmo: P(C|L) = P(L y C) / P(L). Primero, encontramos P(L y C) usando P(L) y P(C|L), entonces
+
+============================================================
+[2025-12-20T14:52:33.164192] Estructura de algoritmos en programación
+Loss: 4.6206
+  P: ¿Qué es un algoritmo?
+  R: Un algoritmo es una secuencia de instrucciones ordenadas que se siguen para resolver un problema o l
+  P: ¿Cuáles son los pasos básicos de un algoritmo?
+  R: Los pasos básicos de un algoritmo son: Entrada, Proceso y Salida (EPS).
+  P: ¿Qué es el tipo de dato booleano en programación?
+  R: El tipo de dato booleano se utiliza para almacenar valores lógicos (true o false) y se usa principal
+
+============================================================
+[2025-12-20T15:11:33.931515] falacias lógicas
+Loss: 6.9924
+  P: ¿Es cierto que si una persona no es vegetariana, entonces debe comer carne?
+  R: NO (FALACIA DE LA INFERENCIA)
+  P: ¿Es cierto que todos los países con economía en crecimiento tienen un gobierno democrático?
+  R: NO (FALACIA DE LA GENERALIZACIÓN EXCESIVA)
+  P: ¿Es cierto que si un producto tiene una publicidad muy positiva, entonces debe ser excelente?
+  R: NO (FALACIA DE LA PUBLICIDAD)
+
+============================================================
+[2025-12-20T15:27:39.820489] edad media
+Loss: 5.6281
+  P: ¿Cuál es la edad media de un individuo en años?
+  R: La edad media se calcula sumando los años de cada individuo y dividiendo por el número total de pers
+  P: ¿Qué tipo de conocimiento es la definición de la Edad Media (época histórica)?
+  R: El conocimiento es un hecho o una regla, ya que se refiere a información específica sobre un período
+  P: ¿Cómo se calcula la media aritmética de las edades?
+  R: 1. Sumar todos los años de edad de cada individuo (suma). 2. Contar el número total de personas (núm
+
+============================================================
+[2025-12-20T15:41:07.438157] diagramas de Venn
+Loss: 5.8531
+  P: ¿Qué es un diagrama de Venn?
+  R: Un diagrama de Venn es una herramienta visual utilizada para representar la relación lógica entre do
+  P: ¿Cómo se construye un diagrama de Venn?
+  R: Se comienza etiquetando los conjuntos en el centro. Luego, se dibujan círculos que representen cada 
+  P: ¿Cómo se puede calcular la cantidad de elementos en un diagrama de Venn?
+  R: Para encontrar el número total de elementos en los conjuntos, sumamos las cantidades individuales y 
+
+============================================================
+[2025-12-20T15:59:07.939756] climas del mundo
+Loss: 6.3196
+  P: ¿Cuál es el clima más cálido del mundo?
+  R: El clima más cálido del mundo es el clima tropical húmedo, caracterizado por temperaturas elevadas y
+  P: ¿Cuál es el principal factor que determina el clima de un lugar?
+  R: El principal factor que determina el clima de un lugar es la latitud, ya que esta influye en la cant
+  P: ¿Cuál es el tipo de clima que se caracteriza por temperaturas muy frías y nevadas?
+  R: El tipo de clima que se caracteriza por temperaturas muy frías y nevadas es el clima polares. Se enc
+
+============================================================
+[2025-12-20T16:16:03.701641] Representaciones geométricas en trigonometría
+Loss: 5.0414
+  P: ¿Cuál es la representación geométrica de un seno?
+  R: La representación geométrica del seno es el lado opuesto a un ángulo en una triángulo rectángulo div
+  P: ¿Cuál es la fórmula para calcular el seno de un ángulo?
+  R: La fórmula para calcular el seno de un ángulo es: $\sin(\theta) = \frac{opuesto}{hipotenusa}$.
+  P: ¿Cuál es la representación geométrica del coseno?
+  R: La representación geométrica del coseno es el lado adyacente a un ángulo en una triángulo rectángulo
+
+============================================================
+[2025-12-20T16:26:03.810161] silogismos
+Loss: 5.6666
+  P: ¿Qué es un silogismo?
+  R: Un silogismo es una forma lógica de razonamiento que consiste en llegar a una conclusión a partir de
+  P: ¿Cómo se estructuran los silogismos?
+  R: Un silogismo se estructura con tres partes: la premisa mayor, la premisa menor y la conclusión. La p
+  P: ¿Cuál es el tipo de silogismo donde la premisa mayor es universal y la premisa menor es particular?
+  R: Se llama silogismo disyuntivo, pero más comúnmente se conoce como silogismo hipotético. Sin embargo,
+
+============================================================
+[2025-12-20T16:40:38.741370] Clasificación de materiales para la reciclaje
+Loss: 6.4610
+  P: ¿Qué tipo de plástico se recicla más fácilmente?
+  R: El PET (Polietileno Tereftalato) es uno de los plásticos más fáciles de reciclar.
+  P: ¿Cómo clasificar papel y cartón para su reciclaje adecuado?
+  R: Los materiales deben separarse en papeles (papel blanco, papel color, periódicos, etc.) y cartón (ca
+  P: ¿Cómo identificar los vidrios no reciclables?
+  R: Los vidrios con conservantes como metales pesados o plomo no deben ser reciclados.
+
+============================================================
+[2025-12-20T17:00:09.885434] Cálculo de la probabilidad condicional
+Loss: 5.4055
+  P: ¿Cuál es la probabilidad condicional de A dado B?
+  R: P(A|B) = P(AB) / P(B)
+  P: Un estudio muestra que el 70% de los estudiantes de un curso de matemáticas son mujeres y el 60% de 
+  R: P(ser mujer | obtener más de 80) = P(ser mujer y obtener más de 80) / P(obtener más de 80). Para enc
+  P: ¿Cuál es la probabilidad de que A y B ocurran juntas?
+  R: P(AB) = P(A|B) * P(B)
+
+============================================================
+[2025-12-20T17:15:12.026371] Ecuaciones diferenciales lineales de segunda orden
+Loss: 5.0270
+  P: ¿Cuál es la forma general de una ecuación diferencial lineal de segunda orden?
+  R: La forma general de una ecuación diferencial lineal de segunda orden es ax'' + bx' + cx = f(x), dond
+  P: ¿Cómo se resuelve una ecuación diferencial lineal homogénea de segunda orden?
+  R: Para resolver una ecuación diferencial lineal homogénea de segunda orden, primero debemos encontrar 
+  P: ¿Qué es la regla de la suma para ecuaciones diferenciales lineales?
+  R: La regla de la suma establece que si tenemos dos soluciones, u(x) y v(x), entonces la función result
+
+============================================================
+[2025-12-20T17:31:49.351165] Fenómenos electromagnéticos
+Loss: 6.6263
+  P: ¿Qué es la tensión eléctrica?
+  R: La tensión eléctrica (V) es la diferencia de potencial entre dos puntos en un circuito eléctrico. De
+  P: ¿Qué es el fenómeno de la inducción electromagnética?
+  R: El fenómeno de la inducción electromagnética ocurre cuando un campo magnético variable induce una te
+  P: ¿Qué es un electromagnet?
+  R: Un electroimán es un material que puede convertirse en imán dependiendo del estado eléctrico (polari
+
+============================================================
+[2025-12-20T17:44:23.520184] verbos regulares
+Loss: 6.0160
+  P: ¿Cómo se forma la conjugación del verbo regular 'hablar' en el presente de indicativo?
+  R: El verbo regular 'hablar' sigue la conjugación: yo hablo, tú hablas, él/ella/usted habla, nosotros/a
+  P: ¿Cuál es el algoritmo para formar la conjugación del verbo regular en el pretérito perfecto?
+  R: El algoritmo para formar la conjugación en el pretérito perfecto es: yo he + participio, tú has + pa
+  P: ¿Cuál es el verbo regular que sigue la conjugación -ar en el pretérito perfecto?
+  R: El algoritmo para formar la conjugación del verbo -ar en el pretérito perfecto es: yo he + participi
+
+============================================================
+[2025-12-20T17:56:44.612646] Algoritmos de ordenamiento
+Loss: 5.5694
+  P: ¿Cuál es el algoritmo de ordenamiento más rápido en términos de complejidad temporal?
+  R: El algoritmo de ordenamiento más rápido en términos de complejidad temporal es Quicksort, con una co
+  P: ¿Cuál es el propósito del pivote en Quicksort?
+  R: El pivote es la clave de comparación utilizada para dividir el arreglo en dos partes: elementos meno
+  P: ¿Cuál es la diferencia entre Bubble Sort y Selection Sort?
+  R: Bubble Sort compara cada par de elementos adyacentes en el arreglo, intercambiando los elementos si 
+
+============================================================
+[2025-12-20T18:15:43.452340] conjuntos
+Loss: 4.4253
+  P: ¿Qué es un conjunto en matemáticas?
+  R: Un conjunto es una colección de elementos únicos que se pueden expresar entre llaves o mediante un s
+  P: ¿Cómo se define la relación de pertenencia en los conjuntos?
+  R: La relación de pertenencia es una regla que indica si un elemento está contenido dentro del conjunto
+  P: ¿Qué significa la intersección de dos conjuntos?
+  R: La intersección (A ∩ B) se refiere al conjunto de elementos que están presentes en los dos conjuntos
+
+============================================================
+[2025-12-20T18:24:58.430060] operadores lógicos
+Loss: 5.2129
+  P: ¿Cuál es el operador lógico NOT (negación)?
+  R: El operador lógico NOT (negación) se utiliza para invertir o negar la verdad de una condición. Se re
+  P: ¿Cómo se evalúa la expresión A AND B?
+  R: La expresión A AND B se evalúa como verdadero solo si ambas condiciones A y B son verdaderas. Si alg
+  P: ¿Qué operador lógico se utiliza para representar la disyunción (OR) entre dos condiciones?
+  R: El operador lógico OR se utiliza para representar la disyunción entre dos o más condiciones. Se repr
+
+============================================================
+[2025-12-20T18:43:30.536492] Tipos de números complejos
+Loss: 4.7522
+  P: ¿Qué es un número complejo?
+  R: Un número complejo es una combinación de dos números reales, uno real y otro imaginario. P = a + bj,
+  P: ¿Cómo se representan los números complejos?
+  R: Los números complejos se pueden representar en forma escrita como P = a + bj, o en forma polar con u
+  P: ¿Qué son los conjugados de números complejos?
+  R: El conjugado de un número complejo P = a + bj es la negación del componente imaginario, Q = a - bj. 
+
+============================================================
+[2025-12-20T18:55:24.527105] Geometría analítica 3D
+Loss: 4.9197
+  P: ¿Cómo se representa en coordenadas cartesianas un punto P(x, y, z) en el espacio 3D?
+  R: La representación de un punto P en coordenadas cartesianas es (x, y, z), donde x, y y z son las coor
+  P: ¿Cómo se calcula la distancia entre dos puntos P1(x1, y1, z1) y P2(x2, y2, z2)?
+  R: La distancia entre dos puntos en el espacio 3D se calcula mediante la fórmula: d = √((x2-x1)^2 + (y2
+  P: ¿Qué es un vector en el espacio 3D y cómo se representa?
+  R: Un vector es una magnitud con dirección y se representa mediante una flecha que apunta en la direcci
+
+============================================================
+[2025-12-20T19:12:24.685025] sustantivos y adjetivos
+Loss: 5.4049
+  P: ¿Cuál es el ejemplo de sustantivo?
+  R: Un perro es un ejemplo de sustantivo porque se refiere a una persona o cosa concreta.
+  P: ¿Cómo podemos identificar si una palabra es adjetiva?
+  R: Una palabra es adjetiva si describe un sustantivo, proporcionando detalles sobre su aspecto, tamaño,
+  P: ¿Cuál es la diferencia entre un adjetivo y un adverbio?
+  R: Un adjetivo describe un sustantivo, mientras que un adverbio modifica una acción o un verbo. Por eje
+
+============================================================
+[2025-12-20T19:24:23.856443] Cálculo de probabilidad condicional
+Loss: 4.2876
+  P: ¿Cuál es la fórmula para calcular la probabilidad condicional?
+  R: P(A|B) = P(A ∩ B) / P(B)
+Razonamiento: Primero, calculamos la probabilidad de la intersección (A y B
+  P: ¿Cuál es la diferencia entre probabilidad condicional y probabilidad condicionada?
+  R: Probabilidad condicional: P(A|B) 
+Probabilidad condicionada: P(B|A)
+Razonamiento: La primera indica 
+  P: ¿Cuál es el tipo de conocimiento para la fórmula P(A|B) = P(A ∩ B) / P(B)?
+  R: Algoritmo
+Razonamiento: La fórmula proporciona un paso a paso para calcular la probabilidad condicio
+
+============================================================
+[2025-12-20T19:39:57.501576] montañas y cordilleras
+Loss: 6.3514
+  P: ¿Qué es una cordillera?
+  R: Una cordillera es una cadena de montañas altas y largas que se extienden a lo largo del planeta Tier
+  P: ¿Cuál es la diferencia entre una montaña y un cerro?
+  R: Una montaña tiene una cima muy alta y a menudo está cubierta de nieve o hielo. Un cerro, por otro la
+  P: ¿Qué son las montañas de alta montaña?
+  R: Las montañas de alta montaña son aquellas que superan los 7,000 metros sobre el nivel del mar. Ejemp
+
+============================================================
+[2025-12-20T19:51:51.784003] Desarrollo de algoritmos de ordenamiento
+Loss: 3.7739
+  P: ¿Cuál es el algoritmo de ordenamiento más rápido?
+  R: El algoritmo de ordenamiento más rápido generalmente es QuickSort.
+  P: ¿Cuál es el algoritmo de ordenamiento in-place?
+  R: BubbleSort y SelectionSort son los algoritmos de ordenamiento más simples e in-place.
+  P: ¿Cuál es el algoritmo de ordenamiento estable?
+  R: MergeSort es un algoritmo de ordenamiento estable.
+
+============================================================
+[2025-12-20T20:10:20.623710] Sistemas de Numeración en diferentes culturas
+Loss: 5.9646
+  P: ¿Cuál es el sistema de numeración egipcio?
+  R: El sistema de numeración egipcio es un sistema basado en la representación de los números utilizando
+  P: ¿Cómo funcionaba el sistema de numeración maya?
+  R: El sistema de numeración maya se basaba en una base de 20 (veinte) y utilizaba tres tipos de dígitos
+  P: ¿Cuál es el sistema de numeración china?
+  R: El sistema de numeración chino utiliza una base de 10, pero con algunos ajustes. Los números del 1 a
+
+============================================================
+[2025-12-20T20:27:30.286813] Estructuras de datos en programación
+Loss: 5.0771
+  P: ¿Qué es una pila?
+  R: Una pila es una estructura de datos implementada como un conjunto ordenado de elementos en la que se
+  P: ¿Cómo funciona el acceso a un nodo en una lista enlazada?
+  R: Para acceder a un nodo en una lista enlazada, necesitamos la dirección del primer nodo y luego utili
+  P: ¿Cuál es el tiempo de acceso promedio en un árbol binario de búsqueda?
+  R: El tiempo de acceso promedio en un árbol binario de búsqueda es logarítmico, específicamente O(log n
+
+============================================================
+[2025-12-20T20:45:49.984392] pronombres
+Loss: 4.9410
+  P: ¿Cuál es el pronombre personal que se utiliza para referirse a un grupo de personas?
+  R: El pronombre personal 'ustedes' se utiliza para referirse a un grupo de personas.
+  P: ¿Qué tipo de pronombre es 'él'?
+  R: 'Él' es un pronombre masculino personal, que se utiliza como sujeto o complemento en una oración.
+  P: ¿Cómo se forma el imperativo positivo del verbo 'ir' en aoristo?
+  R: El imperativo positivo del verbo 'ir' en aoristo es 've'.
+
+============================================================
+[2025-12-20T20:59:29.729400] Algoritmo de Ordenamiento por Selección (Burbuja)
+Loss: 4.2767
+  P: ¿Qué es el Algoritmo de Ordenamiento por Selección (Burbuja)?
+  R: El Algoritmo de Ordenamiento por Selección (Burbuja) es un algoritmo de ordenamiento que compara cad
+  P: Explica el razonamiento paso a paso del Algoritmo de Ordenamiento por Selección (Burbuja).
+  R: 1. Selecciona el elemento más pequeño del conjunto de datos y compáralo con todos los demás elemento
+  P: ¿Cuál es la complejidad temporal del Algoritmo de Ordenamiento por Selección (Burbuja)?
+  R: La complejidad temporal promedio del Algoritmo de Ordenamiento por Selección (Burbuja) es O(n^2), do
+
+============================================================
+[2025-12-20T21:09:40.428632] Fórmula de la derivada de una función exponencial
+Loss: 5.1083
+  P: ¿Cuál es la fórmula de la derivada de una función exponencial?
+  R: La fórmula de la derivada de una función exponencial es: d/dx (e^u) = e^u * du/dx.
+  P: Si tenemos la función exponencial f(x) = e^(2x), ¿cómo se deriva?
+  R: Para derivar f(x) = e^(2x), aplicamos la regla de la cadena: si u = g(x), entonces f(u) = e^u, enton
+  P: ¿Qué regla debemos usar para derivar una función exponencial?
+  R: La regla para derivar una función exponencial es la regla de la cadena, que establece: si u = g(x), 
+
+============================================================
+[2025-12-20T21:23:45.006120] "Algoritmos de ordenamiento"
+Loss: 4.5351
+  P: ¿Cuál es el algoritmo de ordenamiento más eficiente?
+  R: El algoritmo QuickSort y MergeSort tienen una complejidad temporal promedio de O(n log n), pero en l
+  P: ¿Cómo funciona el algoritmo Bubble Sort?
+  R: El algoritmo Bubble Sort compara cada par de elementos adyacentes y los intercambia si están en orde
+  P: ¿Qué es un problema de complejidad O(n^2) en términos de algoritmos?
+  R: Un problema con complejidad O(n^2) significa que el tiempo de ejecución aumenta cuadráticamente con 
+
+============================================================
+[2025-12-20T21:30:26.771421] Bucles en programación
+Loss: 5.6938
+  P: ¿Qué es un bucle en programación?
+  R: Un bucle es una estructura de control que permite repetir una secuencia de instrucciones mientras se
+  P: Diseña un algoritmo para imprimir los números del 1 al 10 utilizando un bucle for
+  R: Para ello, debemos seguir estos pasos: 1. Inicializar una variable 'i' a 1. 2. Mientras 'i' sea meno
+  P: ¿Cuál es la diferencia entre un bucle for y un bucle while?
+  R: Un bucle for es utilizado para iterar sobre una secuencia de elementos conocida con antelación, mien
+
+============================================================
+[2025-12-20T21:47:35.842279] Análisis de sentencias en lenguaje natural
+Loss: 5.4938
+  P: ¿Qué es un token en el análisis de sentencias?
+  R: Un token es la subdivisión más pequeña posible de una sentencia en lenguaje natural, como una palabr
+  P: ¿Cómo se clasifican los tokens en el análisis de sentencias?
+  R: Los tokens se clasifican en categorías como nombres propios, nombres comunes, verbos, adjetivos, adv
+  P: ¿Cuál es el objetivo principal del análisis sintáctico?
+  R: El objetivo principal del análisis sintáctico es identificar la relación entre los tokens en una sen
+
+============================================================
+[2025-12-20T22:04:22.687935] Cálculo de probabilidades en juegos de azar
+Loss: 3.8277
+  P: ¿Cuál es la probabilidad de sacar un número par en una tirada de un dado?
+  R: 1/2
+  P: ¿Cuál es la probabilidad de salir head en una moneda?
+  R: 1/2
+  P: ¿Cuál es la probabilidad de obtener al menos un 5 en dos lanzamientos de un dado?
+  R: 3/4
+
+============================================================
+[2025-12-20T22:18:25.532380] porcentajes
+Loss: 4.8579
+  P: ¿Cuánto es el 25% de 120?
+  R: El 25% de 120 es igual a 30.
+  P: ¿Cuál es la fórmula para calcular un porcentaje?
+  R: Se calcula con la fórmula: (porcentaje/100) * número. Por ejemplo, si queremos calcular el 15% de 80
+  P: ¿Cuánto es el 50% de 90?
+  R: El 50% de 90 es igual a 45.
+
+============================================================
+[2025-12-20T22:35:09.384813] Geometría descriptiva
+Loss: 4.9786
+  P: ¿Qué es la geometría descriptiva?
+  R: La geometría descriptiva es el estudio de las formas geométricas a través de sus propiedades y relac
+  P: ¿Cuáles son los conceptos básicos de la geometría descriptiva?
+  R: Los conceptos básicos de la geometría descriptiva incluyen: puntos, rectas, planos, curvas y ángulos
+  P: ¿Cómo se define un punto en la geometría descriptiva?
+  R: Un punto es una ubicación única en el plano definida por sus coordenadas x e y. P(x,y)
+
+============================================================
+[2025-12-20T22:53:22.868475] multiplicación
+Loss: 5.1655
+  P: ¿Cuántos 3 hay en 12?
+  R: Hay 4 grupos de 3 en 12 porque 12 = 3 × 4 (algoritmo).
+  P: ¿Qué es 2 multiplicado por 5?
+  R: La respuesta es 10 porque 2 × 5 = 10 (algoritmo). Puedes contabilizar los grupos de 2 para llegar a 
+  P: ¿Cuánto es 6 multiplicado por 3?
+  R: La respuesta es 18 porque 6 × 3 = 18 (algoritmo). Puedes imaginar agrupar tres conjuntos de seis par
+
+============================================================
+[2025-12-20T23:10:49.003157] figuras literarias
+Loss: 5.6912
+  P: ¿Cuál es la figura literaria que implica una comparación entre dos cosas no semejantes?
+  R: Metáfora
+  P: ¿Qué ocurre en un cuento cuando hay un cambio de perspectiva o punto de vista del narrador?
+  R: Cambio de foco o relativismo del narrador
+  P: ¿Cuál es la figura literaria que se refiere a la repetición de sonidos en una palabra o frase?
+  R: Etimología y eufemónimos no; Repetición de sonidos: Eufonía
+
+============================================================
+[2025-12-20T23:27:53.357601] ecuaciones cuadráticas
+Loss: 3.9949
+  P: ¿Cuál es la solución a la ecuación x^2 + 4x + 4 = 0?
+  R: La solución a la ecuación es x = -2 (una raíz doble).
+  P: ¿Cuáles son las soluciones a la ecuación x^2 - 7x + 12 = 0?
+  R: Las soluciones a la ecuación son x = 3 y x = 4.
+  P: ¿Por qué la ecuación x^2 + 5x + 6 = 0 no tiene soluciones reales?
+  R: La ecuación no tiene soluciones reales porque el discriminante (b^2 - 4ac) es negativo.
+
+============================================================
+[2025-12-20T23:40:22.539112] sinónimos y antónimos
+Loss: 4.8033
+  P: ¿Cuál es el sinónimo de 'grande'?
+  R: El sinónimo más común para 'grande' es 'enorme'. 
+  P: ¿Cuáles son los antónimos de 'rápido'?
+  R: Los antónimos más directos para 'rápido' son 'lento' y 'pausado'.
+  P: ¿Cuál es el sinónimo de 'libre'?
+  R: El sinónimo más común para 'libre' es 'independiente'. 
+
+============================================================
+[2025-12-21T00:00:41.642035] raíces cuadradas
+Loss: 4.5805
+  P: ¿Cuál es la raíz cuadrada de 16?
+  R: La raíz cuadrada de 16 es 4 porque 4² = 16.
+  P: ¿Cómo se calcula la raíz cuadrada de un número?
+  R: La raíz cuadrada de un número se calcula multiplicando el número por sí mismo y luego tomando la mit
+  P: ¿Cuál es el tipo de conocimiento que representa la fórmula para calcular raíces cuadradas?
+  R: La fórmula para calcular raíces cuadradas es un algoritmo porque consiste en una serie de pasos sist
+
+============================================================
+[2025-12-21T00:16:33.425266] revolución industrial
+Loss: 6.5613
+  P: ¿Cuándo se inició la Revolución Industrial en Gran Bretaña?
+  R: La revolución industrial comenzó a finales del siglo XVIII y principios del XIX en Gran Bretaña.
+  P: ¿Qué fue el principal estimulante de la Revolución Industrial?
+  R: El principal estimulante de la Revolución Industrial fue la invención de nuevas máquinas y tecnologí
+  P: ¿Qué cambios ocurrieron en la agricultura durante la Revolución Industrial?
+  R: Durante la Revolución Industrial se introdujeron nuevos métodos de agricultura, como el uso de arado
+
+============================================================
+[2025-12-21T00:36:23.970246] Análisis de sentimientos en textos utilizando NLP
+Loss: 5.2626
+  P: ¿Cómo se puede identificar el análisis de sentimientos en un texto?
+  R: Identificar el análisis de sentimientos en un texto implica determinar si el texto tiene una connota
+  P: ¿Qué técnicas se utilizan para analizar sentimientos en textos?
+  R: Las principales técnicas utilizadas son la identificación de palabras clave y el uso de modelos de a
+  P: ¿Cómo puedo calcular la intensidad del sentimiento en un texto?
+  R: Para calcular la intensidad del sentimiento, primero debes identificar el sentimiento general del te
+
+============================================================
+[2025-12-21T00:50:29.653141] Números complejos en álgebra lineal
+Loss: 4.5627
+  P: ¿Cómo se representa un número complejo?
+  R: Un número complejo se representa como a + bi, donde 'a' es la parte real y 'bi' es la parte imaginar
+  P: ¿Cuál es el conjugado de un número complejo?
+  R: El conjugado de un número complejo a + bi es a - bi. Se utiliza para simplificar operaciones matemát
+  P: ¿Cómo se calcula la magnitud de un número complejo?
+  R: La magnitud de un número complejo a + bi se calcula multiplicando el módulo por la raíz cuadrada de 
+
+============================================================
+[2025-12-21T01:05:33.538011] continentes y océanos
+Loss: 6.5265
+  P: ¿Cuántos continentes hay en el planeta Tierra?
+  R: Hay 7 continentes: África, Antártida, Asia, Australia, Europa, Norteamérica y Sudamérica.
+  P: ¿Qué es un océano?
+  R: Un océano es un cuerpo de agua salada que cubre gran parte de la superficie terrestre. Los 5 océanos
+  P: ¿Cuál es el continente más grande del mundo?
+  R: El continente más grande es la Asia. Cuenta con una superficie de aproximadamente 44,5 millones de k
+
+============================================================
+[2025-12-21T01:16:49.394350] capitales del mundo
+Loss: 3.0926
+  P: ¿Cuál es la capital de Francia?
+  R: La respuesta directa es: París.
+  P: ¿Cuál es la capital de Australia?
+  R: La respuesta directa es: Canberra.
+  P: ¿Cuál es la capital de China?
+  R: La respuesta directa es: Pekín (o Beijing).
+
+============================================================
+[2025-12-21T01:33:04.519141] Tipos de algoritmos de ordenamiento.
+Loss: 3.9766
+  P: ¿Cuál es el algoritmo de ordenamiento más rápido?
+  R: Algoritmo QuickSort (con promedio O(n log n)).
+  P: ¿Cómo funciona el algoritmo Merge Sort?
+  R: Dividir la lista en sublistas de tamaño 1, ordenar cada una y luego combinarlas.
+  P: ¿Qué tipo de algoritmo es Insertion Sort?
+  R: Algoritmo de ordenamiento a través del cual los elementos se insertan en su lugar correcto (O(n^2)).
+
+============================================================
+[2025-12-21T01:51:21.911941] países por continente
+Loss: 5.6859
+  P: ¿Cuál es el país más grande de África?
+  R: El país más grande de África es Sudáfrica. Razonamiento: Para determinar el país más grande de Áfric
+  P: ¿Cuál es el país más poblado de Asia?
+  R: El país más poblado de Asia es China. Razonamiento: Para determinar el país más poblado, debemos con
+  P: ¿Cuál es el país más grande de América?
+  R: El país más grande de América es Brasil. Razonamiento: Para determinar el país más grande, debemos c
+
+============================================================
+[2025-12-21T02:03:12.485512] Equilibrio de ecuaciones químicas con cargas electrolíticas.
+Loss: 5.4502
+  P: ¿Cuál es el equilibrio de la ecuación química H+ + OH- → H2O?
+  R: H2O
+  P: ¿Cómo se equilibran las cargas electrolíticas en una reacción química?
+  R: Las cargas electrolíticas se equilibran mediante la formación de iones con cargas opuestas. Por ejem
+  P: ¿Cuál es el tipo de conocimiento asociado a la ecuación química H2O → H+ + OH-?
+  R: Algoritmo
+
+============================================================
+[2025-12-21T02:16:40.794325] signos de puntuación
+Loss: 4.1774
+  P: ¿Cuál es el signo de puntuación que se utiliza para separar oraciones?
+  R: El punto y coma (;).
+  P: ¿Cómo se usa el punto (.) en una oración?
+  R: Se coloca al final de la oración para indicar su finalización. Razonamiento: Paso 1: Identificar el 
+  P: ¿Cuál es el signo de puntuación que se utiliza para indicar una pausa prolongada en la lectura?
+  R: El dos puntos (:).
+
+============================================================
+[2025-12-21T02:30:51.169073] manejo de strings
+Loss: 5.5299
+  P: ¿Cómo se accede al carácter en posición 0 de una cadena?
+  R: Puedes utilizar la notación indice: string[0]
+  P: ¿Cómo se une un conjunto de cadenas para formar una nueva cadena?
+  R: Utiliza el método join(): ','.join(['cadena1', 'cadena2'])
+  P: ¿Cómo se verifica si una cadena está vacía?
+  R: Puedes utilizar la función len() o comprobar si la longitud de la cadena es 0: if len(string) == 0:
+
+============================================================
+[2025-12-21T02:47:24.735276] diccionarios
+Loss: 5.2861
+  P: ¿Qué es un diccionario?
+  R: Un diccionario es una colección de palabras ordenadas alfabéticamente con sus significados y ejemplo
+  P: ¿Cómo se organizan los términos en un diccionario?
+  R: Los términos se organizan en orden alfabético, es decir, las palabras se clasifican según la primera
+  P: ¿Qué tipo de información se encuentra generalmente en un diccionario?
+  R: Un diccionario suele contener el significado de cada palabra, su pronunciación, sinónimos y antónimo
+
+============================================================
+[2025-12-21T03:04:20.838441] guerras mundiales
+Loss: 6.6237
+  P: ¿Cuál fue la causa principal de la Primera Guerra Mundial?
+  R: La causa principal fue el asesinato del archiduque Francisco Fernando de Austria en Sarajevo por un 
+  P: ¿Cuál fue la batalla decisiva de la Segunda Guerra Mundial?
+  R: La Batalla de Stalingrado (1942-1943) fue una derrota crucial para Alemania y el comienzo del fin de
+  P: ¿Qué fue el Tratado de Versalles?
+  R: El Tratado de Versalles (1919) fue un acuerdo que puso fin a la Primera Guerra Mundial, imponiendo d
+
+============================================================
+[2025-12-21T03:18:58.347582] funciones
+Loss: 5.4062
+  P: ¿Qué es una función en programación?
+  R: Una función es un bloque de código que realiza una tarea específica y puede ser llamada múltiples ve
+  P: ¿Cómo se define una función en programación?
+  R: Se utiliza la palabra clave `def` seguida del nombre de la función, seguido de los parámetros entre 
+  P: ¿Qué es un argumento en una función?
+  R: Un argumento es el valor que se pasa como entrada a una función cuando se llama a ella. Los argument
+
+============================================================
+[2025-12-21T03:25:57.115859] operadores
+Loss: 4.4182
+  P: ¿Qué es el operador de igualdad en lenguajes de programación?
+  R: El operador '==' se utiliza para comparar valores y devuelve true si son iguales, false en caso cont
+  P: ¿Cómo funciona el operador de suma en una ecuación matemática?
+  R: El operador '+' se utiliza para sumar dos números o variables, ejemplo: a = 5 + 3; El resultado serí
+  P: ¿Qué es el operador de división en lenguajes de programación?
+  R: El operador '/' se utiliza para dividir un valor por otro, ejemplo: x = 10 / 2; El resultado sería x
+
+============================================================
+[2025-12-21T03:45:23.786254] Cálculo de probabilidades en loterías
+Loss: 5.1780
+  P: Si se sacan 4 números de una lotería con 49 números, ¿cuál es la probabilidad de que me salga el núm
+  R: La respuesta directa: La probabilidad es 1/49. Razonamiento: Hay un total de 49 números posibles y s
+  P: Si gano la lotería sacando los 4 números correctos, ¿cuál es la probabilidad de que saque los número
+  R: La respuesta directa: La probabilidad es 1/49.000. Razonamiento: Para cada uno de los 4 números, hay
+  P: Si gano la lotería sacando los 3 primeros números correctos, ¿cuál es la probabilidad de que saque e
+  R: La respuesta directa: La probabilidad es 1/46. Razonamiento: Si ya se han sacado los 3 números corre
+
+============================================================
+[2025-12-21T03:58:28.834551] razonamiento inductivo
+Loss: 5.0584
+  P: ¿Cuál es el razonamiento inductivo?
+  R: El razonamiento inductivo consiste en formar una generalización o conclusión a partir de observacion
+  P: Paso a paso, ¿cómo se realiza el razonamiento inductivo?
+  R: Se identifican patrones o relaciones entre observaciones específicas. Luego, se forma una generaliza
+  P: ¿Qué tipo de conocimiento es el razonamiento inductivo?
+  R: El razonamiento inductivo es un algoritmo para inferir conclusiones generales a partir de observacio
+
+============================================================
+[2025-12-21T04:14:49.081396] Modelado de problemas de optimización lineal (LP)
+Loss: 4.8356
+  P: ¿Cuál es el objetivo principal del modelado de problemas de optimización lineal (LP)?
+  R: El objetivo principal del modelado de problemas de optimización lineal (LP) es encontrar la solución
+  P: ¿Cómo se pueden representar las variables en un modelo de LP?
+  R: Las variables en un modelo de LP se pueden representar como 'x' y 'y', que son múltiplos de una unid
+  P: ¿Qué tipo de restricciones se pueden incluir en un modelo de LP?
+  R: En un modelo de LP, se pueden incluir restricciones lineales, como 'x + 2y ≤ 10' o '3x - 4y ≥ 12'.
+
+============================================================
+[2025-12-21T04:26:42.622514] Sistemas de ecuaciones lineales
+Loss: 2.8466
+  P: ¿Cómo resolver una ecuación lineal: x + 2y = 7?
+  R: La respuesta es: x = -2y + 7
+  P: ¿Cuál es el método para encontrar la solución de una ecuación lineal con dos variables?
+  R: El método consiste en usar la sustitución o eliminación.
+  P: ¿Cómo se puede encontrar la solución de la ecuación: 3x + 2 = 4?
+  R: La respuesta es: x = 1
+
+============================================================
+[2025-12-21T04:43:30.540316] guerra fría
+Loss: 6.3509
+  P: ¿Cuál fue el objetivo principal de la Guerra Fría?
+  R: El objetivo principal de la Guerra Fría fue la propagación de la ideología comunista y la contención
+  P: ¿Cuál fue el papel de la Unión Soviética en la Guerra Fría?
+  R: La Unión Soviética fue el principal rival de Estados Unidos durante la Guerra Fría, buscando expandi
+  P: ¿Cuál fue la importancia de la NATO en la Guerra Fría?
+  R: La Alianza del Atlántico Norte (NATO) fue una alianza militar formada por países occidentales para c
+
+============================================================
+[2025-12-21T04:58:10.788618] bucles for y while
+Loss: 5.1975
+  P: ¿Cuál es el objetivo principal de un bucle for?
+  R: Un bucle for se utiliza para realizar una acción repetida un número determinado de veces. La respues
+  P: ¿Cuál es la diferencia entre el bucle while y el bucle for?
+  R: El bucle while se utiliza para realizar una acción repetida mientras se cumpla una condición determi
+  P: ¿Cómo funciona el bucle for en Python?
+  R: El bucle for en Python funciona mediante una estructura básica: for variable in iterable: instrucció
+
+============================================================
+[2025-12-21T05:12:20.041417] Algoritmo de Fibonacci
+Loss: 4.9656
+  P: ¿Cuál es el algoritmo de Fibonacci?
+  R: Se calcula mediante la secuencia: 0, 1, 1, 2, 3, 5, 8, 13, ... en que cada número es la suma de los 
+  P: ¿Cómo se calcula el n-ésimo número de la secuencia?
+  R: Se utiliza una función recursiva: F(n) = F(n-1) + F(n-2), con F(0) = 0 y F(1) = 1. (Algoritmo)
+  P: ¿Cuál es el tiempo de ejecución del algoritmo de Fibonacci?
+  R: La función recursiva tiene un tiempo de ejecución O(2^n), debido a que se calcula la secuencia compl
+
+============================================================
+[2025-12-21T05:30:08.531596] Análisis de Sentido Común y Razonamiento Lógico
+Loss: 5.3203
+  P: ¿Cuál es el resultado de multiplicar 5 por 3?
+  R: 15. El razonamiento involucrado es una operación matemática básica de multiplicación.
+  P: ¿Cuántos lados tiene un hexágono?
+  R: 6. Este hecho se puede recordar mediante la regla del prefijo 'hexa-' que significa seis.
+  P: Si a una persona le gusta leer libros de ficción y también disfruta viendo películas, ¿qué podemos c
+  R: Podemos inferir que probablemente aprecie la narrativa visual y tenga intereses artísticos. El razon
+
+============================================================
+[2025-12-21T05:47:41.739943] Proporción de figuras geométricas
+Loss: 5.0944
+  P: ¿Cuál es la proporción de un cuadrado?
+  R: La proporción de un cuadrado es 4:4. Es decir, todos sus lados son iguales y cada ángulo mide 90 gra
+  P: ¿Cuál es la relación entre el perímetro y la diagonal de un cuadrado?
+  R: La proporción es 1:√2. Esto se debe a que la diagonal de un cuadrado es la hipotenusa de dos triángu
+  P: ¿Cuál es el tipo de proporción en un rombo?
+  R: El tipo de proporción en un rombo es 1:1. Es decir, todos sus lados son iguales y sus ángulos opuest
+
+============================================================
+[2025-12-21T06:00:25.591801] probabilidad
+Loss: 5.6532
+  P: ¿Cuál es la probabilidad de sacar un seis en una sola tirada de un dado?
+  R: La respuesta directa: 1/6.
+El razonamiento: hay 6 caras en el dado y solo una de ellas es un seis. S
+  P: ¿Cuántas formas hay de ordenar a 5 personas en una fila?
+  R: La respuesta directa: 120.
+El razonamiento: para colocar a la primera persona, hay 5 opciones. Para 
+  P: ¿Cuál es la probabilidad de tirar un par en una mano de cartas de poker?
+  R: La respuesta directa: 1/5.
+El razonamiento: hay 13 cartas del mismo palo (por ejemplo, corazones) y 
+
+============================================================
+[2025-12-21T06:18:27.270736] Cálculo integral
+Loss: 4.7182
+  P: ¿Cuál es la definición de la derivada en el cálculo?
+  R: La derivada de una función f(x) en un punto x=a es la velocidad con que cambia la función en ese pun
+  P: ¿Cómo se calcula la integral de una función?
+  R: Se puede calcular mediante el método de los rectángulos o el método de los trapecios, pero también s
+  P: ¿Qué es el concepto de una función prima?
+  R: Una función prima es aquella cuya derivada existe en un intervalo determinado. También se la conoce 
+
+============================================================
+[2025-12-21T06:34:46.233639] fotosíntesis
+Loss: 6.5115
+  P: ¿Qué es la fotosíntesis?
+  R: La fotosíntesis es el proceso por el cual las plantas y algunos organismos unicelulares convierten l
+  P: ¿Qué pasa con el dióxido de carbono durante la fotosíntesis?
+  R: Durante la fotosíntesis, el dióxido de carbono (CO2) se absorbe por las hojas de las plantas y se co
+  P: ¿Qué producto secundario es producido durante la fotosíntesis?
+  R: El oxígeno (O2) es el principal producto secundario producido durante la fotosíntesis, siendo libera
+
+============================================================
+[2025-12-21T06:48:40.641689] Ecuaciones Diferenciales Lineales (EDL)
+Loss: 4.5037
+  P: ¿Cuál es la ecuación diferencial lineal más simple?
+  R: La ecuación diferencial lineal más simple es dy/dx = ay, donde a es una constante y y es la función 
+  P: Cómo resolver la EDL: dy/dx = 2y
+  R: Para resolver esta EDL, podemos usar la técnica de factorización. Primero, identificamos que la EC e
+  P: ¿Cuál es el tipo de conocimiento sobre EDL?
+  R: El conocimiento sobre EDL es algoritmo, ya que describe paso a paso cómo resolver una ecuación difer
+
+============================================================
+[2025-12-21T07:05:03.580784] electricidad básica
+Loss: 5.6465
+  P: ¿Qué es la corriente eléctrica?
+  R: La corriente eléctrica es el flujo de electrones a través de un conductor, como una fibra óptica o u
+  P: ¿Qué son los circuitos abiertos?
+  R: Los circuitos abiertos son aquellos que no contienen una ruta completa para el flujo de corriente, y
+  P: ¿Qué es la resistencia eléctrica?
+  R: La resistencia eléctrica es una medida del obstáculo que encuentra el flujo de electrones a través d
+
+============================================================
+[2025-12-21T07:21:14.036262] decimales
+Loss: 4.8689
+  P: ¿Cuántos decimales tiene el número 5?
+  R: 1. El número 5 no es un número decimal ya que no contiene una parte fraccionaria. Por lo tanto, tien
+  P: ¿Cuál es la representación en forma de decimal del número 0,25?
+  R: 2. La representación en forma de decimal del número 0,25 consiste en mostrar el valor como una parte
+  P: ¿Cuántos decimales tiene el número 123?
+  R: 3. El número 123 no es un número decimal ya que no contiene una parte fraccionaria. Por lo tanto, ti
+
+============================================================
+[2025-12-21T07:39:17.112341] La evaluación de riesgos en la ingeniería de proyectos.
+Loss: 5.7165
+  P: ¿Cuál es el objetivo principal de la evaluación de riesgos en un proyecto de ingeniería?
+  R: El objetivo principal de la evaluación de riesgos es identificar y clasificar los riesgos potenciale
+  P: ¿Cuál es el proceso para evaluar un riesgo?
+  R: El proceso para evaluar un riesgo consiste en identificar la probabilidad de ocurrencia del riesgo, 
+  P: ¿Qué es el método de evaluación de Montecarlo?
+  R: El método de evaluación de Montecarlo es un algoritmo que utiliza simulaciones repetidas y aleatoria
+
+============================================================
+[2025-12-21T07:47:25.930694] El cálculo de probabilidades
+Loss: 4.6035
+  P: ¿Cuál es la probabilidad de obtener un 5 en una tirada de dados?
+  R: 1/6
+  P: Un estudiante tiene una nota promedio de 80. ¿Cuál es la probabilidad de que obtenga un 85 o más en 
+  R: *No hay suficiente información para responder esta pregunta. Sin embargo, podemos utilizar el razona
+  P: Cuatro dados se lanzan al aire. ¿Cuál es la probabilidad de que salgan exactamente tres 5?
+  R: 4/81 (usando las fórmulas para combinaciones y probabilidades de eventos independientes)
+
+============================================================
+[2025-12-21T08:04:05.809695] Estructura de números enteros en representación decimal
+Loss: 4.1504
+  P: ¿Qué significa la parte entera de un número en representación decimal?
+  R: La parte entera es el conjunto de dígitos a la izquierda del punto decimal (0).
+  P: ¿Qué es un dígito de la parte fraccionaria de un número en representación decimal?
+  R: Es cualquier dígito que se encuentra a la derecha del punto decimal.
+  P: ¿Cuál es el valor numérico de la parte entera y fraccionaria en 45,9?
+  R: La parte entera vale 45 y la parte fraccionaria vale 0,9.
+
+============================================================
+[2025-12-21T08:19:14.340274] suma
+Loss: 3.1139
+  P: ¿Cuál es la suma de 4 + 3?
+  R: La respuesta es 7.
+  P: ¿Cuál es el resultado de 2 + 5?
+  R: La respuesta es 7.
+  P: ¿Cuál es la suma de 10 + 8?
+  R: La respuesta es 18.
+
+============================================================
+[2025-12-21T08:32:28.051527] civilizaciones antiguas
+Loss: 6.4069
+  P: ¿Cuál fue la civilización más avanzada en astronomía en el antiguo mundo?
+  R: La civilización maya fue conocida por sus habilidades en astronomía y su sistema calendario
+  P: ¿Qué fue el legado de la civilización egipcia en tecnología?
+  R: Desarrollaron técnicas de construcción de pirámides y sistemas de agua para irrigación
+  P: ¿Cuál fue la contribución principal de los antiguos griegos a la filosofía?
+  R: Fueron pioneros en la rama de la filosofía conocida como 'filosofía occidental'
+
+============================================================
+[2025-12-21T08:51:41.010005] razonamiento deductivo
+Loss: 5.9856
+  P: ¿Es cierto que John es estudiante de la Universidad de Madrid?
+  R: Sí, es cierto. Este enunciado refleja un hecho conocido.
+  P: ¿Puede inferirse que todos los gatos son felinos?
+  R: Sí, se puede inferir. El razonamiento es válido porque establece una generalización a partir de un c
+  P: ¿Es cierta la afirmación 'Si juegas al tenis y estás cansado, entonces ganarás'?
+  R: No, esta afirmación refleja un razonamiento inductivo. No se puede garantizar que si alguien está ca
+
+============================================================
+[2025-12-21T09:07:13.426920] Análisis de Sentido Común en Lógica
+Loss: 5.6906
+  P: ¿Qué es el análisis de sentido común en lógica?
+  R: Respuesta: El análisis de sentido común en lógica es un método para evaluar la coherencia y validez 
+  P: ¿Cómo funciona el análisis de sentido común paso a paso?
+  R: Respuesta: 1) Identifica los hechos y premisas involucradas. 2) Evalúa si las conclusiones se deriva
+  P: ¿Por qué es importante el análisis de sentido común en la vida diaria?
+  R: Respuesta: El análisis de sentido común es crucial en la vida diaria porque nos permite evaluar crít
+
+============================================================
+[2025-12-21T09:20:26.267610] célula y sus partes
+Loss: 5.7051
+  P: ¿Qué es la célula?
+  R: La célula es la unidad estructural y funcional más pequeña de un organismo vivo.
+  P: ¿Cuáles son las partes principales de una célula eucariota?
+  R: Las partes principales de una célula eucariota son: citoplasma, núcleo, mitocondrias y retículo endo
+  P: ¿Qué es el núcleo?
+  R: El núcleo es la estructura central de una célula eucariota que alberga el material genético (ADN) de
+
+============================================================
+[2025-12-21T09:37:15.058855] Búsqueda de patrones en secuencias numéricas
+Loss: 3.8253
+  P: ¿Cuál es el patrón en la secuencia 2, 5, 8, 11, 14?
+  R: La respuesta es: +3 (El siguiente número se obtiene sumando 3 al número anterior).
+  P: ¿Cuál es el siguiente número en la secuencia 1, 4, 9, 16?
+  R: La respuesta es: 25.
+  P: ¿Cuál es el siguiente número en la secuencia 1, 2, 4, 8?
+  R: La respuesta es: 16.
+
+============================================================
+[2025-12-21T09:53:04.867544] ríos principales
+Loss: 5.8812
+  P: ¿Qué río es el más largo del mundo?
+  R: El río Amazonas
+  P: ¿Cuál es la fuente principal del río Nilo?
+  R: El lago Victoria en Tanzania, Uganda y Ruanda
+  P: ¿Qué río discurre por Brasil y Argentina?
+  R: El río Paraná, un importante afluente del Río de la Plata
+
+============================================================
+[2025-12-21T10:10:03.543764] leyes de Newton
+Loss: 5.7664
+  P: ¿Cuál es la primera ley de Newton?
+  R: La primera ley de Newton establece que un objeto en reposo permanece en reposo y un objeto en movimi
+  P: ¿Cuál es la segunda ley de Newton?
+  R: La segunda ley de Newton establece que el efecto de una fuerza sobre un objeto viene dado por la mul
+  P: ¿Cuál es la tercera ley de Newton?
+  R: La tercera ley de Newton establece que para cada fuerza se aplica una reacción igual y opuesta, es d
+
+============================================================
+[2025-12-21T10:29:59.948557] sistema solar
+Loss: 5.9692
+  P: ¿Cuántos planetas tiene nuestro sistema solar?
+  R: Nuestro sistema solar tiene 8 planetas. Están listados en el orden correcto a partir del Sol: Mercur
+  P: ¿Qué es un planeta en nuestro sistema solar?
+  R: Un planeta es una masa celeste que orbita alrededor de una estrella y tiene suficiente masa para ser
+  P: ¿Cuál es la forma principal cómo los planetas se clasifican en nuestro sistema solar?
+  R: Los planetas se clasifican principalmente por su distancia al Sol. La categorización de los planetas
+
+============================================================
+[2025-12-21T10:44:36.972806] acentuación
+Loss: 5.5250
+  P: ¿Cuándo se escribe la e al final de una palabra?
+  R: Se escribe la e al final de una palabra cuando termina en vocal (a, e, i, o, u) y no soy uno de los 
+  P: ¿Cómo se acentúa la palabra 'también'?
+  R: La respuesta es: El acento grave se coloca sobre la e en el caso de las palabras que terminan en voc
+  P: ¿Cuál es el nombre del acento en español?
+  R: El tipo de conocimiento es: hecho. Los acentos graves y agudos se utilizan para indicar la entonació
+
+============================================================
+[2025-12-21T11:00:14.944236] Algoritmo de ordenamiento por selección
+Loss: 4.1534
+  P: ¿Qué es el algoritmo de ordenamiento por selección?
+  R: El algoritmo de ordenamiento por selección es un método que ordena una lista de elementos en orden a
+  P: ¿Cómo funciona el algoritmo de ordenamiento por selección?
+  R: Funciona buscando el menor elemento en la lista, intercambiándolo con el primero, luego busca el seg
+  P: ¿Ejemplo de cómo funciona el algoritmo de ordenamiento por selección?
+  R: Supongamos una lista [5, 2, 8, 3, 1]. En la primera iteración, se busca el elemento más pequeño (1) 
+
+============================================================
+[2025-12-21T11:17:42.004634] Análisis de algoritmos en programación.
+Loss: 5.0341
+  P: ¿Cuál es el objetivo principal del análisis de algoritmos?
+  R: El objetivo principal del análisis de algoritmos es evaluar y comparar la eficiencia de diferentes a
+  P: ¿Cuáles son los tipos más comunes de complejidad temporal?
+  R: Los tipos de complejidad temporal más comunes son O(1) (constante), O(log n) (logarítmica), O(n) (li
+  P: ¿Cuál es la diferencia entre tiempo de ejecución y uso de memoria?
+  R: El tiempo de ejecución se refiere a la cantidad de operaciones que un algoritmo realiza, mientras qu
+
+============================================================
+[2025-12-21T11:35:46.604689] Sistemas de Numeración en Informática
+Loss: 4.6616
+  P: ¿Cuál es el sistema de numeración binario?
+  R: El sistema de numeración binario utiliza solo dos dígitos: 0 y 1. (Tipo de conocimiento: hecho)
+  P: ¿Cómo se representa el número decimal 10 en el sistema binario?
+  R: El número decimal 10 en binario es 1010. Para calcular esto, se divide hasta llegar a un resto de 1 
+  P: ¿Cuál es la base del sistema de numeración hexadecimal?
+  R: La base del sistema de numeración hexadecimal es 16. Se utiliza para representar números grandes en 
+
+============================================================
+[2025-12-21T11:53:31.732378] variables y tipos de datos
+Loss: 4.8010
+  P: ¿Cuál es el tipo de dato que se utiliza para almacenar textos en una variable?
+  R: El tipo de dato utilizado para almacenar textos es string (cadena de caracteres).
+  P: ¿Qué es una variable y para qué sirve?
+  R: Una variable es un contenedor que almacena información, llamada valor o dato. Sirve como lugar de al
+  P: ¿Cuál es el tipo de dato utilizado para almacenar números enteros?
+  R: El tipo de dato utilizado para almacenar números enteros es integer (entero).
+
+============================================================
+[2025-12-21T12:09:45.378995] trigonometría básica
+Loss: 5.2802
+  P: ¿Qué es el seno de un ángulo?
+  R: El seno de un ángulo es la relación entre la longitud del lado opuesto y la hipotenusa en un triángu
+  P: ¿Cuál es el valor del coseno de un ángulo de 30 grados?
+  R: El coseno de un ángulo de 30 grados es aproximadamente 0,866.
+  P: ¿Cuáles son las tres fórmulas de la ley de los senos?
+  R: La ley de los senos establece que: a/sin(A) = b/sin(B) = c/sin(C), donde a, b y c son las longitudes
+
+============================================================
+[2025-12-21T12:22:53.999641] tiempos verbales
+Loss: 5.6180
+  P: ¿Cuál es el tiempo verbal correcto en la oración 'Ella habla con su amiga'?
+  R: El tiempo verbal correcto es pretérito simple (hablaba). Sin embargo, si se refiere a un hecho actua
+  P: ¿Cuál es la diferencia entre el pretérito perfecto y el pretérito imperfecto?
+  R: El pretérito perfecto se utiliza para acciones que terminaron en un momento específico del pasado, m
+  P: ¿Cuál es el tiempo verbal correcto en la oración 'Yo estaba estudiando cuando me llamaron'?
+  R: El tiempo verbal correcto es pretérito perfecto (estaba + gerundio: estudiando).
+
+============================================================
+[2025-12-21T12:38:19.781546] Álgebra Lineal
+Loss: 4.7965
+  P: ¿Cuál es la matriz inversa de una matriz cuadrada si se multiplica por sí misma?
+  R: La matriz original.
+  P: ¿Cómo se calcula la determinante de una matriz 3x3?
+  R: * Encontramos el determinante de la matriz tridiagonal resultante. * Si A es una matriz cuadrada de 
+  P: ¿Qué tipo de ecuación se resuelve en un sistema lineal?
+  R: Sistema de ecuaciones lineales.
+
+============================================================
+[2025-12-21T12:51:33.743184] tablas de verdad
+Loss: 4.8583
+  P: ¿Qué es una tabla de verdad?
+  R: Una tabla de verdad es un diagrama que muestra todas las posibles combinaciones de valores verdadero
+  P: ¿Cómo se construye una tabla de verdad?
+  R: Se construye asignando valores verdadero o falso a cada proposición individual y luego evaluando la 
+  P: ¿Qué se muestra en el encabezado de una tabla de verdad?
+  R: En el encabezado de una tabla de verdad, se muestran todas las posibles combinaciones de valores ver
+
+============================================================
+[2025-12-21T13:04:57.779432] Análisis de datos estadísticos
+Loss: 4.6886
+  P: ¿Qué es la mediana?
+  R: La mediana es una medida de tendencia central que representa el valor medio de un conjunto de datos 
+  P: ¿Cómo se calcula la media aritmética?
+  R: La media aritmética (MA) es la suma de todos los valores dividida por el número total de valores.
+  P: ¿Qué es la variación?
+  R: La variación se refiere a la dispersión o desviación de los datos respecto al valor promedio.
+
+============================================================
+[2025-12-21T13:22:12.929840] energía y trabajo
+Loss: 5.0310
+  P: ¿Qué relación hay entre energía y trabajo?
+  R: La energía y el trabajo están relacionados por la ecuación E = W, donde 'E' representa la energía y 
+  P: ¿Cuál es el tipo de conocimiento sobre la ecuación E = W?
+  R: La ecuación E = W es un hecho. Es una relación matemática establecida para describir la equivalencia
+  P: ¿Cuál es el razonamiento detrás de la ecuación E = W?
+  R: El razonamiento detrás de la ecuación E = W se basa en la segunda ley de Newton, que describe cómo l
+
+============================================================
+[2025-12-21T13:42:37.736713] estadística básica
+Loss: 4.2818
+  P: ¿Cuál es el promedio de una serie de números?
+  R: El promedio se calcula sumando todos los números y dividir por la cantidad de números.
+  P: ¿Cómo se calcultan las medias aritméticas, geométricas y armónicas en un conjunto de datos?
+  R: La media aritmética es el promedio (suma todos los valores y divide por la cantidad). La media geomé
+  P: ¿Cuál es la diferencia entre media y mediana?
+  R: La media es el valor promedio, mientras que la mediana es el valor central cuando se ordenan los dat
+
+============================================================
+[2025-12-21T13:56:53.052686] "Polinomios y ecuaciones cuadráticas"
+Loss: 4.3404
+  P: ¿Cuál es el valor de x en la ecuación cuadrática x^2 + 4x + 4 = 0?
+  R: La respuesta es x = -2.
+  P: ¿Cómo se resuelve una ecuación cuadrática en forma estándar ax^2 + bx + c = 0?
+  R: Se utiliza la fórmula de la raíz cuadrada: x = (-b ± √(b² - 4ac)) / (2a).
+  P: ¿Cuál es el tipo de ecuación que se puede representar con un polinomio cuadrático?
+  R: Es una ecuación cuadrática. Un polinomio cuadrático es una expresión algebraica en la forma ax^2 + b
+
+============================================================
+[2025-12-21T14:15:52.309293] Cálculo de probabilidades en estadística
+Loss: 4.9422
+  P: ¿Cuál es la probabilidad de sacar un 6 en un solo lanzamiento de una moneda justa?
+  R: La respuesta directa es: 1/6 o aproximadamente 0,17. El razonamiento es: La probabilidad de sacar un
+  P: ¿Cuál es la probabilidad de que al menos dos personas compartan la misma fecha de nacimiento en un g
+  R: La respuesta directa no se puede calcular sin más información. El razonamiento: Para calcular esta p
+  P: ¿Cuál es la probabilidad de que un dado justo muestre un 4?
+  R: La respuesta directa es: 1/6 o aproximadamente 0,17. El razonamiento: Dado que hay 6 resultados posi
+
+============================================================
+[2025-12-21T14:23:56.801836] sistemas de ecuaciones
+Loss: 4.5421
+  P: Resolver el sistema de ecuaciones: x + 2y = 6 y -x + 3y = 7.
+  R: La respuesta es x = 2 e y = 2. El algoritmo paso a paso es:
+1. Sumar las dos ecuaciones para elimina
+  P: ¿Cuál es el tipo de sistema de ecuaciones que se obtiene cuando hay más variables que ecuaciones?
+  R: Un sistema de ecuaciones no lineales o un sistema de ecuaciones sobredeterminado. En este caso, no h
+  P: Resolver el sistema de ecuaciones: x - 2y = 3 e x + 4y = -5.
+  R: La respuesta es x = -19 y y = -4. El razonamiento paso a paso es:
+1. Multiplcar la primera ecuación 
+
+============================================================
+[2025-12-21T14:39:57.574607] división
+Loss: 5.7266
+  P: ¿Cuántos grupos de 3 puedes formar con 12 personas?
+  R: 4 grupos. Para encontrar la respuesta, dividimos el número total de personas (12) entre el tamaño de
+  P: ¿Cuánto cuesta un libro si cuestan $15 por unidad y quieres comprar 6?
+  R: Un libro cuesta $15. Para encontrar el costo total, multiplicamos el precio de una unidad ($15) por 
+  P: ¿Cuántos metros hay en un kilómetro?
+  R: Un metro es igual a 0.001 kilómetros. Para encontrar el número de metros en un kilómetro, podemos di
+
+============================================================
+[2025-12-21T15:01:13.132723] logaritmos
+Loss: 4.4897
+  P: ¿Qué es el logaritmo de un número?
+  R: El logaritmo de un número es la potencia a la que debe elevarse un determinado base para obtener ese
+  P: ¿Cuál es el algoritmo para calcular el logaritmo manualmente?
+  R: Para calcular el logaritmo, podemos utilizar la fórmula inversa de potenciación: si y = b^x, entonce
+  P: ¿Cuál es un ejemplo de cálculo de logaritmo?
+  R: Si queremos calcular el logaritmo base 2 de 16, podemos aplicar la fórmula: x = log2(16) = ?
+
+============================================================
+[2025-12-21T15:20:54.602107] Cálculo de probabilidades
+Loss: 4.1800
+  P: ¿Cuál es la probabilidad de sacar un 6 en un solo lanzamiento de un dado?
+  R: La probabilidad es 1/6.
+  P: ¿Cuál es la probabilidad de que dos personas elegidas al azar tengan la misma fecha de nacimiento?
+  R: Se calcula utilizando la fórmula de probabilidad condicional o considerando el número total de fecha
+  P: ¿Cuál es la diferencia entre probabilidad absoluta y probabilidad condicional?
+  R: La probabilidad absoluta se refiere a la probabilidad de un evento independiente, mientras que la pr
+
+============================================================
+[2025-12-21T15:32:25.064796] Algoritmo de ordenamiento por selección directa
+Loss: 4.2137
+  P: ¿Cuál es el algoritmo de ordenamiento por selección directa?
+  R: El algoritmo de ordenamiento por selección directa es un método que ordena una lista de elementos en
+  P: ¿Cómo funciona el algoritmo de ordenamiento por selección directa en un ejemplo?
+  R: Supongamos una lista de números: [5, 2, 8, 3].
+1. El mayor número es 8.
+2. Lo intercambiamos con el 
+  P: ¿Cuál es el tiempo de complejidad del algoritmo de ordenamiento por selección directa?
+  R: El tiempo de complejidad del algoritmo de ordenamiento por selección directa es O(n^2), donde n es l
+
+============================================================
+[2025-12-21T15:50:34.928463] renacimiento
+Loss: 6.5674
+  P: ¿Cuál fue el período histórico que se caracterizó por una renovada atención a la cultura clásica gre
+  R: El Renacimiento
+  P: ¿Quiénes fueron los humanistas del Renacimiento?
+  R: Los humanistas del Renacimiento fueron intelectuales y estudiosos que se centraron en el estudio de 
+  P: ¿Cuáles fueron las principales características artísticas del Renacimiento?
+  R: Las principales características artísticas del Renacimiento incluyeron el uso de proporciones y pers
+
+============================================================
+[2025-12-21T16:06:28.326858] Estructura de los átomos
+Loss: 4.9645
+  P: ¿Qué parte principal de un átomo se encuentra en el centro?
+  R: El núcleo
+  P: ¿Cuáles son los componentes del núcleo de un átomo?
+  R: Protones y neutrones
+  P: ¿Qué son los electrones en relación con el átomo?
+  R: Partículas cargadas negativamente que orbitan alrededor del núcleo
+
+============================================================
+[2025-12-21T16:19:14.383538] Análisis de sentimientos en texto natural
+Loss: 5.2681
+  P: ¿Qué es el análisis de sentimientos en texto natural?
+  R: El análisis de sentimientos en texto natural es un proceso que identifica y clasifica las emociones 
+  P: ¿Cómo se puede calcular la intensidad del sentimiento?
+  R: La intensidad del sentimiento se calcula mediante el uso de técnicas como la normalización de frecue
+  P: ¿Qué es el procesamiento léxico-semántico?
+  R: El procesamiento léxico-semántico es el razonamiento paso a paso que implica analizar primero el sig
+
+============================================================
+[2025-12-21T16:34:52.099157] Estructuras de Datos en Programación
+Loss: 5.2484
+  P: ¿Qué es la lista enlazada?
+  R: Una lista enlazada es una estructura de datos que almacena elementos como nodos conectados entre sí 
+  P: ¿Cómo se manejan las listas enlazadas?
+  R: Las listas enlazadas se manejan insertando y eliminando nodos de la cola, con un tiempo de complejid
+  P: ¿Qué es el árbol binario?
+  R: Un árbol binario es una estructura de datos que almacena elementos en nodos, cada uno con un valor y
+
+============================================================
+[2025-12-21T16:44:22.828507] Ecuaciones diferenciales lineales
+Loss: 4.3518
+  P: ¿Cuál es la forma general de una ecuación diferencial lineal?
+  R: La forma general de una ecuación diferencial lineal es: dy/dx + P(x)y = Q(x), donde P(x) y Q(x) son 
+  P: ¿Cómo se resuelve la ecuación diferencial lineal dy/dx + P(x)y = Q(x)?
+  R: Para resolver esta ecuación, utilizamos el método de integración directa. Paso a paso:
+1) Integra la
+  P: Dada la ecuación diferencial lineal y' + 2xy = e^x, ¿se trata de un algoritmo o una regla?
+  R: Se trata de una ecuación diferencial(linear), por lo tanto el tipo de conocimiento es: Ecuación Dife
+
+============================================================
+[2025-12-21T17:01:53.029826] Lógica proposicional
+Loss: 5.3375
+  P: ¿Es verdadero o falso el enunciado p → q?
+  R: La respuesta es verdadera. El razonamiento es: si se cumple la premisa (p), entonces la consecuencia
+  P: ¿Cuál de las siguientes proposiciones lógicas se evalúa como verdadero?
+  R: La respuesta es ~(p ∧ q). La regla para cálculo lógico indica que la negación de una disyunción (¬(A
+  P: ¿Cuántas formas hay de representar la ley lógica del principio de contradicción?
+  R: La respuesta es 1. El principio de contradicción se formula como: (p ∨ ~p) → ~(p ∧ q).
+
+============================================================
+[2025-12-21T17:14:14.983648] tabla periódica
+Loss: 5.6423
+  P: ¿Qué es la Tabla Periódica?
+  R: Es una herramienta que clasifica a los elementos químicos según su número atómico y sus propiedades 
+  P: ¿Por qué se organiza la tabla periódica en filas (grupos) y columnas (periódos)?
+  R: Se organiza así para reflejar las similitudes y diferencias entre los elementos según su número atóm
+  P: ¿Qué significa el número átomico en la tabla periódica?
+  R: Es el número de protones que hay en el núcleo de un átomo, lo que determina su lugar en la tabla y s
+
+============================================================
+[2025-12-21T17:25:22.236723] "Tipos de sentencias en programación Java"
+Loss: 5.2061
+  P: ¿Qué es una sentencia if en Java?
+  R: Una sentencia if en Java es un tipo de control de flujo que permite evaluar una condición y ejecutar
+  P: Qué tipo de conocimiento es la sentencia for en Java
+  R: La sentencia for en Java es un algoritmo, ya que proporciona una forma estructurada para iterar sobr
+  P: ¿Cuál es el uso de una sentencia switch en Java?
+  R: Una sentencia switch en Java permite evaluar varios valores y ejecutar diferentes bloques de código 
+
+============================================================
+[2025-12-21T17:44:01.662047] Tipos de Relaciones Matrimoniales en Derecho Familia
+Loss: 5.7803
+  P: ¿Cuál es el tipo de relación matrimonial en la que ambos cónyuges tienen igualdad de derechos y obli
+  R: Comunión de bienes
+  P: ¿Qué ocurre con las propiedades y bienes en una comunión de bienes cuando termina el matrimonio?
+  R: A la separación o divorcio, los bienes se reparten de acuerdo a la proporción establecida por ley. E
+  P: ¿Cuál es la relación matrimonial en la que uno de los cónyuges mantiene su patrimonio y no se compar
+  R: Comunión por participación
+
+============================================================
+[2025-12-21T17:56:42.352180] verbos irregulares
+Loss: 5.7209
+  P: ¿Cómo se conjugan los verbos irregulares en pretérito perfecto simple?
+  R: Los verbos irregulares se conjugan de la siguiente manera: Se agrega -í o -ió al infinitivo, según s
+  P: ¿Cuál es el verbo irregular que sigue la regla 'yo' en pretérito perfecto simple?
+  R: El verbo irregular 'hablar' sigue esta regla. Por ejemplo: yo hablé, tú hablaste, él habló.
+  P: ¿Cómo se conjuga el verbo 'ser' en pretérito imperfecto?
+  R: El verbo 'ser' se conjuga de la siguiente manera: era (yo), eras (tú), era (él/ella/usted), éramos, 
+
+============================================================
+[2025-12-21T18:12:00.079029] estados de la materia
+Loss: 5.8284
+  P: ¿Cuáles son los cuatro estados fundamentales de la materia?
+  R: Los cuatro estados fundamentales de la materia son sólido, líquido, gas y plasma.
+  P: ¿Cómo se caracteriza un estado sólido?
+  R: Un estado sólido tiene una forma fija y volumen constante. Los átomos o moléculas están estrechament
+  P: ¿Qué es un líquido?
+  R: Un líquido tiene una forma variable y volumen constante. Los átomos o moléculas están separados entr
+
+============================================================
+[2025-12-21T18:30:56.827702] falacias lógicas
+Loss: 5.8164
+  P: ¿Qué es la falacia ad hominem?
+  R: La falacia ad hominem es una argumentación que se centra en atacar al contrario en lugar de refutar 
+  P: ¿Cómo se conoce el ejemplo de la falacia ad hominem?
+  R: Es un argumento que dice "Tu teoría es falsa porque tú eres un estúpido". El razonamiento paso a pas
+  P: ¿Qué es la falacia post hoc ergo propter hoc?
+  R: La falacia post hoc ergo propter hoc (lo que ocurre después, por lo tanto, se debe a) consiste en in
+
+============================================================
+[2025-12-21T18:47:25.984769] Ecuaciones Diferenciales Lineales
+Loss: 4.4053
+  P: ¿Cuál es la ecuación diferencial lineal más simple?
+  R: La ecuación diferencial lineal más simple es dy/dx + P(x)y = Q(x), donde P(x) y Q(x) son funciones c
+  P: ¿Cómo se resuelve una ecuación diferencial lineal de la forma dy/dx + P(x)y = Q(x)?
+  R: Se utiliza el método de integración por partes o la fórmula de reducción de I. El proceso se puede e
+  P: ¿Qué es un sistema lineal?
+  R: Un sistema lineal es un conjunto de ecuaciones diferenciales del tipo dy/dx = a1(x)y1 + a2(x)y2 + … 
+
+============================================================
+[2025-12-21T19:09:57.570036] potencias
+Loss: 4.4944
+  P: ¿Cuál es la potencia de 3 elevada a la quinta potencia?
+  R: La potencia de 3 elevada a la quinta potencia es $3^{5} = 243$.
+  P: ¿Cómo se calcula la potencia de una expresión algebraica como $(2x+1)^{3}$?
+  R: Para calcular $(2x+1)^{3}$, debemos aplicar el algoritmo de expansión binomial: 
+
+$(a+b)^{n} = inom
+  P: ¿Cuál es la potencia de 4 elevada a la cuarta potencia?
+  R: La potencia de 4 elevada a la cuarta potencia es $4^{4} = 256$.
+
+============================================================
+[2025-12-21T19:26:46.553659] Estructura de números complejos en álgebra lineal
+Loss: 4.2734
+  P: ¿Cómo se representa un número complejo?
+  R: *Un número complejo está representado en la forma a + bi, donde 'a' es la parte real y 'b' es la par
+  P: ¿Cuál es el conjugado de un número complejo a + bi?
+  R: *El conjugado de a + bi es a - bi. Se obtiene reemplazando la parte imaginaria por su negativo.*
+  P: ¿Cómo se calcula la magnitud de un número complejo?
+  R: *La magnitud (o valor absoluto) de un número complejo a + bi se calcula mediante la fórmula: √(a² + 
+
+============================================================
+[2025-12-21T19:45:56.593197] orden de operaciones
+Loss: 5.0389
+  P: ¿Cuál es la orden de operaciones para resolver expresiones matemáticas?
+  R: La orden de operaciones es PEMDAS: Paréntesis, Exponentes, Múltiplos y divisiones (izquierda a derec
+  P: ¿Cuál se evalúa primero en la expresión 2+3*4?
+  R: Primero se evalúa el múltiplo: 3 * 4 = 12. Luego, 2 + 12 = 14.
+  P: ¿Cuál es la respuesta para la expresión 10-5+2?
+  R: Primero se evalúan las operaciones de resta y suma: 10 - 5 = 5. Luego, 5 + 2 = 7.
+
+============================================================
+[2025-12-21T20:03:40.698305] Tipos de ríos
+Loss: 5.7834
+  P: ¿Qué es un río de montaña?
+  R: Es un río que nace en las montañas y fluye hacia la llanura circundante. El agua a menudo se infiltr
+  P: ¿Qué tipo de río tiene una gran caudal y forma valles profundos?
+  R: Un río de llanura, que tiene una gran cuenca hidrográfica y transporta una gran cantidad de sediment
+  P: ¿Cuál es la característica principal de un río de delta?
+  R: Un río que fluye hacia un cuerpo de agua más grande, como el mar, y forma un sistema de deltas. Los 
+
+============================================================
+[2025-12-21T20:14:52.814870] recursividad
+Loss: 5.1175
+  P: ¿Cuál es el concepto fundamental de la recursividad?
+  R: La recursividad es un enfoque de programación donde una función se invoca a sí misma para resolver u
+  P: ¿Cómo funciona el algoritmo de ordenamiento por inserción mediante recursividad?
+  R: El algoritmo de ordenamiento por inserción utiliza recursividad para comparar elementos consecutivos
+  P: ¿Cuál es el beneficio de usar recursividad en un algoritmo?
+  R: El beneficio principal de la recursividad es que permite abordar problemas complejos dividiéndolos e
+
+============================================================
+[2025-12-21T20:28:24.367569] Análisis de sentencias en programación funcional
+Loss: 4.6930
+  P: ¿Qué es un análisis de sentencias en programación funcional?
+  R: Un análisis de sentencias en programación funcional es la evaluación de una expresión o función para
+  P: ¿Cómo se distingue un análisis de sentencias en programación funcional de un análisis estático?
+  R: Un análisis de sentencias en programación funcional se enfoca en el comportamiento y la estructura d
+  P: ¿Cuál es el propósito principal de un análisis de sentencias en programación funcional?
+  R: El objetivo principal del análisis de sentencias en programación funcional es garantizar la segurida
+
+============================================================
+[2025-12-21T20:42:07.588960] Estructura de Datos en Programación
+Loss: 3.8584
+  P: ¿Qué es un array en programación?
+  R: Un array es una estructura de datos que almacena una colección ordenada y indexada de elementos.
+  P: ¿Qué es una lista enlazada?
+  R: Una lista enlazada es una estructura de datos que almacena elementos mediante referencia a otros nod
+  P: ¿Cuál es la diferencia entre un árbol binario y un árbol AVL?
+  R: Un árbol binario es una estructura que utiliza nodos con máximo dos hijos, mientras que un árbol AVL
+
+============================================================
+[2025-12-21T20:54:12.996802] Modelado de Problemas de Lógica
+Loss: 6.3335
+  P: Si John tiene 12 gafas de leer y cada paquete contiene 4 gafas, ¿cuántos paquetes necesita comprar?
+  R: La respuesta es 3. Paso a paso: Identificar el número total de gafas que necesita John (12). Dividir
+  P: Un reloj marca las 7:45. ¿Qué hora será en 2 horas y media?
+  R: La respuesta es las 10:15. Paso a paso: Sumar 2 horas al tiempo actual (7:45 + 2 = 9:45). Luego, agr
+  P: Si una persona camina a un ritmo de 5 km/h y recorre 25 km en 1 hora y media, ¿cuál es su ritmo?
+  R: La respuesta es 3.2 km/h (pero para responder la pregunta original correctamente: 10km/h). Paso a pa
+
+============================================================
+[2025-12-21T21:12:27.092738] algoritmos de ordenamiento
+Loss: 4.8075
+  P: ¿Cuál es el algoritmo de ordenamiento más rápido en términos de complejidad temporal?
+  R: El algoritmo de ordenamiento más rápido en términos de complejidad temporal es QuickSort, con una co
+  P: ¿Cómo funciona el algoritmo de ordenamiento por inserción?
+  R: El ordenamiento por inserción compara cada elemento del arreglo con todos aquellos previos para inse
+  P: ¿Cuál es el algoritmo de ordenamiento más estable?
+  R: El algoritmo de ordenamiento más estable es Merge Sort. Este tipo de sort funciona dividiendo un arr
+
+============================================================
+[2025-12-21T21:28:30.292104] climas del mundo
+Loss: 6.2815
+  P: ¿Cuál es el clima más cálido del mundo?
+  R: El Sahara, ubicado en África occidental, tiene un clima desértico cálido con temperaturas extremadam
+  P: ¿Cómo se define el clima tropical de savana?
+  R: Un clima tropical de sabana es un tipo de clima que tiene lluvias estacionales, alta temperatura y b
+  P: ¿Cuál es el tipo de clima más común en Norteamérica?
+  R: El clima continental húmedo, caracterizado por inviernos fríos y veranos cálidos con estaciones bien
+
+============================================================
+[2025-12-21T21:40:37.475216] resta
+Loss: 4.0992
+  P: ¿Cuál es el resultado de restar 7 de 15?
+  R: El resultado de restar 7 de 15 es 8.
+  P: ¿Qué paso a paso se debe hacer para restar 9 de 27?
+  R: Se deben restar los dígitos, por lo que primero debemos realizar 20 - 9 = 11 y luego obtener el rest
+  P: ¿Cuál es el tipo de conocimiento para restar números?
+  R: El tipo de conocimiento para restar números es un algoritmo.
+
+============================================================
+[2025-12-21T21:54:49.753916] diagramas de Venn
+Loss: 5.4749
+  P: Dos conjuntos A y B se cruzan en un diagrama de Venn. El área del círculo que representa el conjunto
+  R: El conjunto A tiene 16 elementos y el conjunto B tiene 9 elementos.
+  P: En un diagrama de Venn con dos círculos, el conjunto A tiene 15 elementos y el conjunto B tiene 10 e
+  R: El número total de elementos en ambos conjuntos es 35 - 5 = 30.
+  P: Dos conjuntos A y B se cruzan en un diagrama de Venn. El conjunto A tiene 12 elementos y el conjunto
+  R: El número total de elementos en ambos conjuntos es (12 + 8) * 1,2 = 24.
+
+============================================================
+[2025-12-21T22:13:40.126909] Cálculo diferencial
+Loss: 5.4226
+  P: ¿Cuál es el límite de una función f(x) cuando x tiende a 2?
+  R: El límite de una función f(x) cuando x tiende a un valor a es la cantidad que se aproxima a medida q
+  P: ¿Cuál es el valor de la derivada de una función f(x) = x^3 - 4x cuando x=1?
+  R: La derivada de una función f(x) es un valor que mide la tasa de cambio de la función en un punto dad
+  P: ¿Cuál es el tipo de función que tiene una derivada cuyo valor absoluto siempre es menor que 2?
+  R: Una función con una derivada absoluta que siempre es menor que un número constante a lo largo de su 
+
+============================================================
+[2025-12-21T22:29:29.015446] Algoritmos de ordenamiento de lista
+Loss: 3.9857
+  P: ¿Cuál es el algoritmo de ordenamiento más rápido?
+  R: El algoritmo de ordenamiento QuickSort es uno de los más rápidos. Funciona seleccionando un elemento
+  P: ¿Cómo funciona el algoritmo Bubble Sort?
+  R: El algoritmo Bubble Sort compara cada par de elementos en la lista, intercambiándolos si están en or
+  P: ¿Cuál es el tipo de conocimiento del algoritmo Merge Sort?
+  R: El algoritmo Merge Sort es un ejemplo de un algoritmo divide y vencerás. Divide la lista en dos part
+
+============================================================
+[2025-12-21T22:39:29.323215] operadores lógicos
+Loss: 5.0664
+  P: ¿Cuál es el resultado de la expresión lógica: A AND B?
+  R: La respuesta directa es F si al menos uno de los operandos es F.
+  P: ¿Cómo se clasifica el operador NOT?
+  R: El tipo de conocimiento es 'operador' porque establece la negación de un valor lógico (algoritmo).
+  P: ¿Cuál es el orden de precedencia para los operadores lógicos AND, OR y NOT?
+  R: El orden de precedencia es: NOT > AND > OR.
+
+============================================================
+[2025-12-21T22:53:09.226258] Álgebra lineal
+Loss: 5.2586
+  P: ¿Cuál es la matriz inversa de A si A = [[2, 1], [4, 3]]?
+  R: La matriz inversa de A es A^(-1) = (1/7)[[-3, 1], [-4, 2]].
+  P: ¿Cómo encontrar el vector solución de Ax = b si A = [[2, 1], [4, 3]] y b = [6, 9]?
+  R: Primero, calcula la matriz inversa de A. Luego, multiplica la matriz inversa por b para obtener el v
+  P: ¿Cuál es la norma de un vector v si v = [3, 4]?
+  R: La norma de un vector v es la raíz cuadrada de la suma de los cuadrados de sus componentes. En este 
+
+============================================================
+[2025-12-21T23:09:18.995712] Teoría de la probabilidad
+Loss: 4.4357
+  P: ¿Cuál es la probabilidad de que salga cara en una moneda al azar?
+  R: La respuesta directa es 0,5 o 50%. El razonamiento es el siguiente: hay dos resultados posibles (car
+  P: ¿Cuál es la fórmula para calcular la probabilidad de que ocurra un evento A?
+  R: La respuesta directa es P(A). El razonamiento es el siguiente: la probabilidad de un evento se defin
+  P: ¿Cuál es la diferencia entre probabilidad y expectativa?
+  R: La respuesta directa es que la probabilidad mide la frecuencia con que ocurre un evento, mientras qu
+
+============================================================
+[2025-12-21T23:19:31.310199] Ecuaciones diferenciales
+Loss: 4.5842
+  P: ¿Cuál es la ecuación diferencial asociada a un problema de crecimiento poblacional?
+  R: La ecuación diferencial que describe el crecimiento poblacional es dP/dt = rP, donde P es la poblaci
+  P: ¿Cómo se resuelve una ecuación diferencial lineal establecida?
+  R: Para resolver una ecuación diferencial lineal establecida, podemos usar las técnicas de integración.
+  P: ¿Cuál es el tipo de solución a una ecuación diferencial homogénea?
+  R: Las ecuaciones diferenciales homogéneas tienen soluciones de la forma y = e^(r*x), donde r es una co
+
+============================================================
+[2025-12-21T23:37:06.906347] Estructura de árboles binarios
+Loss: 4.0428
+  P: ¿Qué es un árbol binario?
+  R: Un árbol binario es una estructura de datos en la que cada nodo (nodo) tiene como máximo dos hijos. 
+  P: ¿Cómo se llama el proceso de recorrer un árbol binario?
+  R: El proceso de recorrer un árbol binario se llama recorrido en profundidad (DFS) o recorrido en anchu
+  P: ¿Qué son los tipos de árboles binarios?
+  R: Los tipos de árboles binarios son árbol completo, árbol balanceado y árbol impar. El tipo de conocim
+
+============================================================
+[2025-12-21T23:49:50.817157] Análisis de sentencias en lenguaje natural
+Loss: 5.3539
+  P: ¿Qué es una sentencia en lenguaje natural?
+  R: Es un conjunto de palabras o tokens que expresan una idea o oración.
+  P: Distingue las partes de una sentencia. ¿Cuál es el papel del verbo en la estructura de una sentencia
+  R: El verbo describe la acción o estado de la oración. Es un elemento fundamental que da significado a 
+  P: Se nos da una sentencia: 'La casa es azul'. ¿Qué tipo de análisis se puede realizar sobre esta sente
+  R: Puede realizarse un análisis sintáctico, estudiando la estructura y la gramática de la oración; o un
+
+============================================================
+[2025-12-22T00:02:45.054187] verbos regulares
+Loss: 5.1815
+  P: ¿Cómo se forma el pasado de los verbos regulares en -ar?
+  R: Se agrega -é, -aste, -ó, -amos, -asteis, -aron al infinitivo del verbo.
+  P: ¿Cuál es el verbo regular que forma su pasado con la terminación -ió?
+  R: Los verbos regulares en -ar forman su pasado con esta terminación, pero no todos los verbos irregula
+  P: ¿Cómo se forma el futuro de los verbos regulares en -ar?
+  R: Se agrega -é, -ás, -á, -emos, -éis, -án al infinitivo del verbo.
+
+============================================================
+[2025-12-22T00:14:04.286423] Construcción de modelos de ecuaciones diferenciales
+Loss: 3.5735
+  P: ¿Cómo se clasifican las ecuaciones diferenciales?
+  R: Las ecuaciones diferenciales se clasifican en no lineales y lineales, dependiendo de su función.
+  P: ¿Qué es un modelo de ecuación diferencial?
+  R: Un modelo de ecuación diferencial es una representación matemática que describe el cambio o evolució
+  P: ¿Cómo se resuelve una ecuación diferencial lineal?
+  R: Se utiliza la fórmula general de integración y los métodos de solución como el método de las series 
+
+============================================================
+[2025-12-22T00:29:48.093697] "Algoritmos de ordenación"
+Loss: 4.2303
+  P: ¿Cuál es el algoritmo más rápido para ordenar una lista de elementos?
+  R: El algoritmo más rápido es QuickSort, con un tiempo complejidad de O(n log n) en promedio.
+  P: ¿Cómo funciona Bubble Sort?
+  R: Bubble Sort compara cada par de elementos y los ordena según su valor. Se repite el proceso hasta qu
+  P: ¿Qué algoritmo utiliza una partición para dividir la lista en dos sub-listas?
+  R: Merge Sort es un algoritmo de ordenación que divide la lista en dos sublistas más pequeñas y luego l
+
+============================================================
+[2025-12-22T00:40:48.025841] Análisis de la estructura cristalina de los minerales
+Loss: 4.8946
+  P: ¿Qué es la estructura cristalina de los minerales?
+  R: La estructura cristalina de un mineral se refiere a su disposición espacial regular y ordenada de át
+  P: ¿Cómo se clasifican las estructuras cristalinas?
+  R: Las estructuras cristalinas se clasifican en 7 tipos principales según su disposición espacial: cúbi
+  P: ¿Cómo se determina la estructura cristalina de un mineral?
+  R: La estructura cristalina de un mineral se puede determinar mediante técnicas como la difracción de r
+
+============================================================
+[2025-12-22T00:57:00.651137] Geografía: Rutas de navegación marítima
+Loss: 5.7223
+  P: ¿Qué es la ruta de navegación marítima más importante a través del estrecho de Bósforo?
+  R: La ruta de navegación marítima más importante a través del estrecho de Bósforo es el Canal de los Da
+  P: ¿Cómo se clasifican las rutas marítimas según su profundidad?
+  R: Las rutas marítimas se clasifican en rutas internacionales, regionales y locales según su profundida
+  P: ¿Qué es el Canal de Suez?
+  R: El Canal de Suez es un canal artificial que conecta el mar Mediterráneo con el golfo de Suez, permit
+
+============================================================
+[2025-12-22T01:12:34.372928] método científico
+Loss: 5.4934
+  P: ¿Cuál es el primer paso del método científico?
+  R: Formular una pregunta o problema a resolver.
+  P: ¿Cómo se lleva a cabo la investigación en el método científico?
+  R: Se investiga y recopila información relevante para responder a la pregunta planteada. (Investigación
+  P: ¿Qué ocurre después de la investigación en el método científico?
+  R: Se analiza e interpreta los datos obtenidos durante la investigación, y se sacan conclusiones sobre 
+
+============================================================
+[2025-12-22T01:31:37.401604] Ecología forestal
+Loss: 6.6529
+  P: ¿Qué es la capacidad de producción de un bosque?
+  R: La capacidad de producción de un bosque se conoce como el potencial productivo o biomasa máxima que 
+  P: ¿Por qué es importante la selección adecuada de especies para plantar?
+  R: La selección de especies adecuadas se basa en consideraciones como resistencia a enfermedades, adapt
+  P: ¿Qué es la rotación de plantaciones?
+  R: La rotación de plantaciones se refiere al tiempo durante el cual un bosque crece y luego se corta pa
+
+============================================================
+[2025-12-22T01:45:09.557890] preposiciones
+Loss: 5.0362
+  P: ¿Cuál es la preposición que se utiliza para indicar dirección o ubicación?
+  R: La respuesta es: a y en (por ejemplo: vivo en Madrid, me dirijo a casa).
+  P: ¿Qué preposición se utiliza antes de los nombres propios?
+  R: La respuesta es: el artículo determinado (por ejemplo: la librería de Juan, el jardín de María).
+  P: ¿Cuál es la regla para formar las preposiciones de lugar con substantivos femeninos en plural?
+  R: La respuesta es: se agrega -s (por ejemplo: En la casa, al lado del río).
+
+============================================================
+[2025-12-22T02:02:16.692773] pronombres
+Loss: 5.0486
+  P: ¿Cuál es el pronombre personal correspondiente a la persona que habla?
+  R: Yo
+  P: Explica en qué casos se utiliza el pronombre 'me' y cuándo se utiliza 'le'.
+  R: El pronombre 'me' se utiliza cuando es el sujeto del verbo, mientras que 'le' se utiliza como comple
+  P: ¿Cuál es el tipo de conocimiento que representa una oración como 'Ella se llama María'?
+  R: Hecho
+
+============================================================
+[2025-12-22T02:12:57.837304] multiplicación
+Loss: 5.0698
+  P: ¿Cuánto es 4 x 6?
+  R: El resultado de la multiplicación de 4 y 6 es 24.
+  P: ¿Cómo se calcula 3 x 9?
+  R: Para calcular la multiplicación de 3 y 9, sumamos 3 nueves veces. Otra forma es usar el hecho de que
+  P: ¿Cuál es la regla para multiplicar números decimales?
+  R: Para multiplicar números decimales, multiplicamos los números enteros parte de cada número decimal c
+
+============================================================
+[2025-12-22T02:28:20.064412] Análisis de circuitos eléctricos
+Loss: 5.0982
+  P: ¿Cuál es la ley de Ohm que relaciona con la resistencia, la tensión y el flujo de corriente?
+  R: La ley de Ohm establece que la tensión (V) en un circuito es igual a la resistencia (R) multiplicada
+  P: ¿Cómo se calcula el voltaje total en una red de fuentes en serie?
+  R: Para calcular el voltaje total en una red de fuentes en serie, suma las tensiones de cada fuente: VT
+  P: ¿Cuál es la diferencia entre un circuito abierto y uno cerrado?
+  R: Un circuito abierto no permite el flujo de corriente, mientras que un circuito cerrado lo permite. U
+
+============================================================
+[2025-12-22T02:37:05.008748] condicionales if-else
+Loss: 5.5485
+  P: ¿Cuál es el propósito principal de las sentencias if-else en un programa?
+  R: Las sentencias if-else se utilizan para tomar decisiones o realizar acciones condicionales dentro de
+  P: ¿Cómo se estructura una sentencia if-else básica en pseudocódigo?
+  R: if (condición) { acción a ejecutar } else { acción a ejecutar si la condición es falsa}.
+  P: ¿Puedo tener múltiples bloques de código para cada condición en una sentencia if-else?
+  R: Sí, se pueden agregar más bloques de código con elseif (si y solo si la condición anterior es falsa)
+
+============================================================
+[2025-12-22T02:55:51.916190] Lógica de la inducción matemática
+Loss: 4.7284
+  P: ¿Qué es la inducción matemática?
+  R: La inducción matemática es un método de demostración que muestra que una afirmación general es ciert
+  P: ¿Cómo se aplica la inducción matemática?
+  R: Se aplica paso a paso: 1) Muestre que la afirmación es cierta para un caso particular. 2) Suponga qu
+  P: ¿Qué tipo de conocimiento es la inducción matemática?
+  R: La inducción matemática es un algoritmo de razonamiento.
+
+============================================================
+[2025-12-22T03:08:50.894664] montañas y cordilleras
+Loss: 5.6698
+  P: ¿Cuál es la definición de cordillera?
+  R: Una cordillera es una serie de montañas que se unen para formar una cadena o serralada.
+  P: ¿Qué tipo de relieve son las montañas?
+  R: Las montañas son elevaciones terrestres que sobrepasan los 600 metros de altura y tienen pendientes 
+  P: ¿Cómo se forman las cordilleras?
+  R: Las cordilleras se forman a través del proceso de orogenia, que es la colisión y deformación de la c
+
+============================================================
+[2025-12-22T03:19:54.131001] Tipos de números en matemática
+Loss: 4.3129
+  P: ¿Cuál es el tipo de número que se puede expresar como la suma de números enteros positivos?
+  R: Los números enteros positivos se conocen como números naturales.
+  P: ¿Qué tipo de número se usa para contar la cantidad de elementos en un conjunto finito?
+  R: Los números enteros, que incluyen tanto los números naturales como sus opuestos (los números negativ
+  P: ¿Cuál es el tipo de número que no tiene un equivalente racional?
+  R: Los números irracionales, como π o e. Se definen como los números reales que no son racionales.
+
+============================================================
+[2025-12-22T03:36:48.039322] Tipos de polinomios en álgebra lineal
+Loss: 4.0494
+  P: ¿Qué es un polinomio lineal?
+  R: Un polinomio lineal es un polinomio de grado 1 en el que la variable elevada al máximo poder es 1. (
+  P: ¿Dónde se aplica un polinomio cuadrático?
+  R: Un polinomio cuadrático se aplica en problemas de gravedad y movimiento rectilíneo. (Razonamiento: I
+  P: ¿Cuál es el grado de un polinomio cúbico?
+  R: El grado de un polinomio cúbico es 3. (Razonamiento: Identificar la potencia del término principal, 
+
+============================================================
+[2025-12-22T03:49:15.495729] Introducción a la Programación Orientada a Objetos (POO) en Python
+Loss: 5.2098
+  P: ¿Cuál es el objetivo principal de la POO?
+  R: El objetivo principal de la POO es organizar y estructurar el código en unidades reutilizables llama
+  P: ¿Qué es un objeto en POO?
+  R: Un objeto es una instancia de una clase que tiene propiedades (datos) y métodos (funciones). Los obj
+  P: ¿Cómo se define una clase en Python?
+  R: Una clase se define utilizando la palabra reservada `class` seguida del nombre de la clase. Por ejem
+
+============================================================
+[2025-12-22T04:07:13.003739] fracciones
+Loss: 5.2838
+  P: ¿Qué es una fracción?
+  R: Una fracción es la relación entre dos números enteros: un numerador que indica el número de partes y
+  P: Cómo se simplifica una fracción
+  R: Para simplificar una fracción, debemos encontrar el máximo común divisor (MCD) de los números del nu
+  P: ¿Cómo se puede comparar dos fracciones?
+  R: Para comparar dos fracciones, podemos buscar un número común que multiplique al numerador y al denom
+
+============================================================
+[2025-12-22T04:23:24.881461] figuras literarias
+Loss: 5.2762
+  P: ¿Qué es una metáfora?
+  R: Una metáfora es una figura literaria en la que se compara dos conceptos o entidades sin utilizar 'co
+  P: Ejemplo de metáfora:
+  R: La vida es un viaje. En este ejemplo, la vida se compara con un viaje para describir su curso y prog
+  P: ¿Qué es una hipérbole?
+  R: Una hipérbole es una figura literaria en la que se exageran las características o acciones para enfa
+
+============================================================
+[2025-12-22T04:36:06.035835] reacciones químicas
+Loss: 4.9704
+  P: ¿Qué es una reacción química?
+  R: Una reacción química es un proceso en el que se transforman sustancias químicas en otras nuevas, cam
+  P: ¿Cuál es la ecuación de una reacción química?
+  R: La ecuación de una reacción química es una expresión matemática que muestra los reactantes y product
+  P: ¿Cuáles son las etapas principales en un proceso de reacción química?
+  R: Las etapas principales en un proceso de reacción química son: (1) los reactantes se combinan, (2) oc
+
+============================================================
+[2025-12-22T04:51:37.462461] signos de puntuación
+Loss: 5.0305
+  P: ¿Qué signo de puntuación se utiliza para indicar la pausa entre oraciones?
+  R: El punto (.)
+  P: ¿Cómo se escribe el signo de interrogación cuando va al final de una oración interrogativa?
+  R: Se escribe con un punto y seguido de dos signos de interrogación (??) o simplemente dos signos de in
+  P: ¿Qué signo se utiliza para indicar la separación entre oraciones que expresan una idea independiente
+  R: La coma (,)
+
+============================================================
+[2025-12-22T05:07:34.501240] sinónimos y antónimos
+Loss: 4.9188
+  P: ¿Cuál es el sinónimo de la palabra 'amor'?
+  R: El sinónimo de la palabra 'amor' es cariño.
+  P: ¿Cuál es un antónimo de la palabra 'grande'?
+  R: Un antónimo de la palabra 'grande' es pequeño. (Tipo de conocimiento: Antónimos)
+  P: ¿Qué significa ser sincero frente a ser honesto?
+  R: Sincero y honesto son términos que se refieren a decir la verdad, pero en el sentido de ser sincero 
+
+============================================================
+[2025-12-22T05:24:58.209816] operadores
+Loss: 4.1258
+  P: ¿Qué es el operador NOT?
+  R: Es un operador lógico que devuelve true si la condición anterior es falsa y viceversa.
+  P: ¿Cómo se usa el operador AND en una expresión lógica?
+  R: Se utiliza para evaluar dos condiciones como verdaderas solo si ambas son verdaderas. (A AND B)
+  P: ¿Qué es un operador de aumento?
+  R: Un operador que incrementa el valor de una variable. Ejemplo: x += 5 (x = x + 5)
+
+============================================================
+[2025-12-22T05:41:25.243533] diccionarios
+Loss: 4.8901
+  P: ¿Qué es un diccionario?
+  R: Un diccionario es una colección de palabras y sus significados, que se utiliza como recurso para la 
+  P: ¿Cómo se organizan los términos en un diccionario?
+  R: Los términos se organizan alfabéticamente, es decir, se ordenan según las letras iniciales de las pa
+  P: ¿Qué es la definición de una palabra en un diccionario?
+  R: La definición de una palabra en un diccionario es una explicación concisa y exacta de su significado
+
+============================================================
+[2025-12-22T05:57:17.003113] Inteligencia Artificial
+Loss: 5.3489
+  P: ¿Qué es la Inteligencia Artificial (IA)?
+  R: La Inteligencia Artificial es el estudio y desarrollo de sistemas que pueden realizar tareas intelec
+  P: ¿Cuáles son las características principales de la Inteligencia Artificial?
+  R: Las características principales de la IA incluyen el procesamiento de lenguaje natural, visión artif
+  P: ¿Qué es el Aprendizaje Automático?
+  R: El Aprendizaje Automático (Machine Learning) es un subconjunto de la IA que permite a los sistemas a
+
+============================================================
+[2025-12-22T06:16:03.110891] razonamiento inductivo
+Loss: 5.4895
+  P: ¿Qué tipo de razonamiento implica hacer una generalización basada en observaciones específicas?
+  R: El razonamiento inductivo es el proceso de inferir principios generales a partir de casos específico
+  P: ¿Cómo se distingue el razonamiento inductivo del deductivo?
+  R: El razonamiento inductivo es diferente al razonamiento deductivo porque implica una generalización b
+  P: ¿Cuál es un ejemplo de razonamiento inductivo?
+  R: Un ejemplo de razonamiento inductivo es observar que varias personas alrededor del mundo tienen pelo
+
+============================================================
+[2025-12-22T06:36:15.573120] revolución industrial
+Loss: 6.0092
+  P: ¿Cuál fue el principal motor de la Revolución Industrial?
+  R: La máquina a vapor. Este invento permitió automatizar procesos industriales y aumentar la productivi
+  P: ¿Qué tipo de cambio introdujo la Revolución Industrial en las fábricas?
+  R: El paso del trabajo manual al trabajo mecánico. Esto se debió a la incorporación de máquinas y herra
+  P: ¿Cuál fue el principal beneficio para la sociedad de la Revolución Industrial?
+  R: El aumento en la producción y la eficiencia. Esto permitió una mayor disponibilidad de bienes a un p
