@@ -5,12 +5,10 @@ from tokenizer import CharacterTokenizer, load_books
 import time
 import os
 
-# Hiperparámetros SSM
-# Nota: Podemos usar BLOCK_SIZE mucho más grandes si quisiéramos, 
-# pero para CPU lo mantendremos moderado.
-BATCH_SIZE = 16 
-BLOCK_SIZE = 512         # Al ser SSM, podemos manejar contexto mayor con menos RAM
-DIM = 128                # SSMs suelen ser muy potentes con dimensiones bajas
+# Hiperparámetros SSM (Contexto Masivo)
+BATCH_SIZE = 8           # Bajamos un poco el batch para compensar el contexto largo en RAM
+BLOCK_SIZE = 2048        # ¡Aumentado a 2048! (4 veces más que antes)
+DIM = 128
 STATE_DIM = 16           # El tamaño de la "memoria" interna de la capa
 N_LAYERS = 4
 LEARNING_RATE = 1e-3
