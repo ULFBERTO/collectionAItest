@@ -1,8 +1,4 @@
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-from model import Transformer
-from tokenizer import CharacterTokenizer, load_books
+import os
 import time
 
 # Configuración de Hiperparámetros (Optimizado para ~10 Horas en CPU)
@@ -120,10 +116,23 @@ if __name__ == "__main__":
     
     optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
     
-    print(f"Iniciando entrenamiento ({MAX_ITERS} iteraciones)...")
+    # --- REANUDACIÓN DESDE CHECKPOINT ---
+    checkpoint_path = "checkpoint_transformer.pth"
+    start_iter = 0
+    if os.path.exists(checkpoint_path):
+        print(f"Detectado checkpoint '{checkpoint_path}'. Cargando estado...")
+        # map_location=DEVICE asegura que se cargue en CPU/GPU según corresponda
+        checkpoint = torch.load(checkpoint_path, map_location=DEVICE)
+        model.load_state_dict(checkpoint['model_state_dict'])
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        start_iter = checkpoint['iter'] + 1
+        print(f"Reanudación exitosa desde la iteración {start_iter}")
+    # ------------------------------------
+
+    print(f"Iniciando entrenamiento desde iter {start_iter} hasta {MAX_ITERS}...")
     start_time = time.time()
     
-    for iter in range(MAX_ITERS):
+    for iter in range(start_iter, MAX_ITERS):
         # Obtener lote y calcular pérdida
         xb, yb = get_batch(train_data, BATCH_SIZE, BLOCK_SIZE)
         
