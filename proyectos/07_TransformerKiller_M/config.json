@@ -1,0 +1,9 @@
+{
+  "model_type": "ssm_transformer_killer",
+  "vocab_size": 228,
+  "dim": 128,
+  "n_layers": 4,
+  "state_dim": 16,
+  "architecture": "State Space Model (Mamba-like)",
+  "tokenizer_type": "character-level"
+}

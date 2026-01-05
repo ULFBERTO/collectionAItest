@@ -57,7 +57,7 @@ if __name__ == "__main__":
     print(f"Usando: {DEVICE}")
     
     # 1. Datos
-    books_path = r"C:\EVIROMENT\M\collectionAItest\proyectos\Data\libros_espanol"
+    books_path = r"D:\EVIROMENT\collectionAItest\proyectos\Data\libros_espanol"
     text = load_books(books_path)
     tokenizer = CharacterTokenizer()
     tokenizer.fit(text)
