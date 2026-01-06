@@ -1,5 +1,6 @@
 {
   "model_name": "OxideLLM_TK_SSM_V1",
+  "model_type": "ssm_simplified_onnx",
   "iteration": 1200,
   "vocab_size": 228,
   "char2idx": {
@@ -472,5 +473,6 @@
     "dim": 128,
     "state_dim": 16,
     "n_layers": 4
-  }
+  },
+  "note": "Versión simplificada para ONNX. El modelo SSM completo requiere PyTorch."
 }
