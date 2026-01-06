@@ -127,6 +127,7 @@ def main():
         # Subir archivos
         files = [
             ("ssm_model.onnx", "ssm_model.onnx"),
+            ("ssm_weights.json", "ssm_weights.json"),
             ("tokenizer.json", "tokenizer.json"),
             ("README_ONNX.md", "README.md"),
         ]
